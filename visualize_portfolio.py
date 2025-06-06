@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import yfinance as yf
+import pandas as pd
 
 # Sample portfolio 
 portfolio = {
@@ -10,7 +11,14 @@ portfolio = {
 
 # Download current prices
 def get_current_prices(tickers):
-    data = yf.download(tickers, period="1d", auto_adjust=False)['Close']
+    data = yf.download(tickers, period="1d", auto_adjust=True)
+
+    # If multiple tickers, handle MultiIndex
+    if isinstance(data.columns, pd.MultiIndex):
+        data = data['Close']
+    else:
+        data = data[['Close']]
+
     return data.iloc[0]
 
 tickers = list(portfolio.keys())
@@ -27,6 +35,6 @@ for ticker in tickers:
 plt.figure(figsize=(7, 7))
 plt.pie(market_values, labels=tickers, autopct='%1.1f%%', startangle=140)
 plt.title('Current Portfolio Allocation')
-plt.axis('equal')  # pie is a circle
+plt.axis('equal')  # Equal aspect ratio ensures pie is drawn as a circle
 plt.tight_layout()
 plt.show()
