@@ -10,7 +10,7 @@ portfolio = {
 
 # Download current prices
 def get_current_prices(tickers):
-    data = yf.download(tickers, period="1d")['Adj Close']
+    data = yf.download(tickers, period="1d", auto_adjust=False)['Close']
     return data.iloc[0]
 
 tickers = list(portfolio.keys())
