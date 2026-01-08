@@ -1,4 +1,4 @@
-# persfin-trakka
+# personal-fintracker
 
 # 💸 Personal Finance Tracker
 
@@ -25,7 +25,7 @@ This is a 5-part personal finance tracking app designed to help users manage inc
 
 ## 🗂️ Project Structure
 
-persfin-trakka/
+personal-fintracker/
 ├── data/
 │ ├── income.csv
 │ ├── expenses.csv
@@ -42,8 +42,8 @@ persfin-trakka/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/persfin-trakka.git
-   cd persfin-trakka
+   git clone https://github.com/your-username/personal-fintracker.git
+   cd personal-fintracker
 
    
 2. Install dependencies:
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
-Make sure your CSV files are in the ```data/``` folder and match the expected format.
+CSV files have to be in the ```data/``` folder and match the expected format.
 
 📦 Requirements
 ```
@@ -77,4 +77,4 @@ pip install streamlit pandas matplotlib yfinance
 ```
 
 👨‍💻 Author
-Built by Alan León – as a hands-on finance/data project to showcase Python, data wrangling, visualization, and Streamlit UI skills.
+Built as a hands-on finance/data project to showcase Python, data wrangling, visualization, and Streamlit UI skills.
