@@ -34,11 +34,17 @@ On the sample data the detector finds 13 recurring charges (12 active) that make
 - A duplicate Netflix charge in May 2024
 - Four one-off expenses: flight tickets, dental emergency, phone replacement, laptop repair
 
-### More charts
+### Cash flow and categories
 
 | | |
 |---|---|
 | ![Savings rate](docs/images/savings_rate.png) | ![Spending by category](docs/images/categories.png) |
+
+### Portfolio
+
+Positions are built from purchase lots and valued with live prices from yfinance, falling back to cost basis when a price is unavailable. The image below is valued at cost so it is the same on every run. In the dashboard, the Portfolio tab also shows the annualized return (XIRR) once every holding has a live price.
+
+![Portfolio allocation](docs/images/allocation.png)
 
 ## Quick start
 
