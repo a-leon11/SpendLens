@@ -12,8 +12,8 @@ def test_generator_is_deterministic_for_a_seed():
 
 
 def test_generator_changes_with_the_seed():
-    _, expenses_a, _ = sample_data.generate(seed=1, months=6)
-    _, expenses_b, _ = sample_data.generate(seed=2, months=6)
+    expenses_a = sample_data.generate(seed=1, months=6).expenses
+    expenses_b = sample_data.generate(seed=2, months=6).expenses
     assert not expenses_a.equals(expenses_b)
 
 
@@ -23,7 +23,9 @@ def test_generated_files_load_through_the_loader(tmp_path):
     income = data.load_income(tmp_path)
     expenses = data.load_expenses(tmp_path)
     investments = data.load_investments(tmp_path)
+    budgets = data.load_budgets(tmp_path)
 
+    assert "Housing" in set(budgets["category"])
     assert income["date"].dt.to_period("M").nunique() == 12
     assert expenses["date"].dt.to_period("M").nunique() == 12
     assert len(expenses) > 250
