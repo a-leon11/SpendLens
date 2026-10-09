@@ -1,28 +1,31 @@
-import pandas as pd
-import yfinance as yf
-from pathlib import Path
+"""Print portfolio positions. Usage: python investment_tracker.py
 
-# Load investment data
-data_dir = Path("data")
-investments = pd.read_csv(data_dir / "investments.csv", parse_dates=["buy_date"])
+Uses live prices from yfinance when reachable and falls back to cost basis
+for any ticker without one (the price_source column says which).
+"""
+from spendlens import data, portfolio
 
-# Fetch live prices using yfinance
-def get_current_price(ticker):
-    try:
-        stock = yf.Ticker(ticker)
-        return stock.history(period="1d")["Close"].iloc[-1]
-    except:
-        return None
 
-# Add current price and market value
-investments["current_price"] = investments["ticker"].apply(get_current_price)
-investments["market_value"] = investments["shares"] * investments["current_price"]
-investments["initial_value"] = investments["shares"] * investments["buy_price"]
-investments["unrealized_gain"] = investments["market_value"] - investments["initial_value"]
+def main() -> None:
+    investments = data.load_investments()
+    prices = portfolio.fetch_prices(investments["ticker"])
+    positions = portfolio.build_positions(investments, prices)
 
-# Print results
-print("📈 Investment Portfolio Summary:\n")
-print(investments[["ticker", "shares", "buy_price", "current_price", "market_value", "unrealized_gain"]])
+    columns = ["ticker", "shares", "avg_cost", "current_price", "value",
+               "unrealized_gain", "return_pct", "price_source"]
+    print(f"Portfolio positions (USD). Data: {data.resolve_data_dir()}\n")
+    print(positions[columns].to_string(index=False, float_format=lambda v: f"{v:,.2f}"))
 
-print("\n💰 Total Market Value: ${:.2f}".format(investments["market_value"].sum()))
-print("📉 Total Unrealized Gain/Loss: ${:.2f}".format(investments["unrealized_gain"].sum()))
+    total_cost = positions["cost"].sum()
+    total_value = positions["value"].sum()
+    print(f"\nCost basis:    {total_cost:,.2f}")
+    print(f"Current value: {total_value:,.2f}")
+    if positions["price_source"].eq("live").all():
+        print(f"Unrealized:    {total_value - total_cost:,.2f}")
+    else:
+        missing = positions.loc[positions["price_source"] != "live", "ticker"].tolist()
+        print(f"Unrealized:    n/a (no live price for {', '.join(missing)})")
+
+
+if __name__ == "__main__":
+    main()
