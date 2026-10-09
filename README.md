@@ -57,6 +57,7 @@ spendlens/
 ├── data.py           # schema-checked CSV loaders
 ├── budget.py         # monthly summary, category breakdown
 ├── portfolio.py      # positions from lots, live prices with fallback
+├── charts.py         # Altair charts used by the dashboard
 └── sample_data.py    # seeded synthetic data generator
 dashboard.py          # Streamlit app
 budget_summary.py     # terminal budget report
@@ -78,4 +79,4 @@ data/                 # synthetic sample CSVs
 
 ## Tech
 
-Python, pandas, Streamlit, Matplotlib, yfinance, pytest.
+Python, pandas, Streamlit, Altair, Matplotlib, yfinance, pytest.
