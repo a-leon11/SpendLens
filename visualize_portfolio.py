@@ -9,7 +9,7 @@ from spendlens import data, portfolio
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Portfolio allocation chart.")
-    parser.add_argument("--out", default="images/portfolio_allocation.png")
+    parser.add_argument("--out", default="output/portfolio_allocation.png")
     parser.add_argument("--show", action="store_true", help="open a window instead of only saving")
     args = parser.parse_args()
 
