@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets and local config
+.env
+.streamlit/secrets.toml
+
+# Real financial data stays on your machine, never in git
+data/private/
+
+# OS
+.DS_Store
