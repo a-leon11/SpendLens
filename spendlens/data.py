@@ -33,6 +33,14 @@ SCHEMAS: dict[str, dict] = {
         "dates": ["buy_date"],
         "numbers": ["shares", "buy_price"],
     },
+    # Optional: only the budget views need it. A budget applies from effective_from
+    # until a later row for the same category replaces it.
+    "budgets": {
+        "file": "budgets.csv",
+        "columns": ["category", "monthly_budget", "effective_from"],
+        "dates": ["effective_from"],
+        "numbers": ["monthly_budget"],
+    },
 }
 
 
@@ -84,9 +92,17 @@ def load_investments(data_dir: Path | str | None = None) -> pd.DataFrame:
     return load_table("investments", data_dir)
 
 
+def load_budgets(data_dir: Path | str | None = None) -> pd.DataFrame:
+    return load_table("budgets", data_dir)
+
+
 if __name__ == "__main__":
     print(f"Data directory: {resolve_data_dir()}\n")
     for table in SCHEMAS:
-        frame = load_table(table)
+        try:
+            frame = load_table(table)
+        except FileNotFoundError as err:
+            print(f"{table}: not found ({err})\n")
+            continue
         print(f"{table}: {len(frame)} rows")
         print(frame.head(3).to_string(index=False), "\n")

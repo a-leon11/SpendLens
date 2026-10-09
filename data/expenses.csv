@@ -1,708 +1,1093 @@
 date,description,amount,category
-2024-10-01,Rent,6500.00,Housing
+2023-10-01,Rent,6500.00,Housing
+2023-10-01,Transit card top-up,200.00,Transport
+2023-10-02,Gym membership,450.00,Health
+2023-10-03,Netflix,219.00,Subscriptions
+2023-10-05,Internet,449.00,Utilities
+2023-10-05,Electronics accessory,872.33,Shopping
+2023-10-06,Walmart,363.52,Groceries
+2023-10-06,Pharmacy,105.80,Health
+2023-10-08,Phone plan,299.00,Utilities
+2023-10-10,Water bill,164.00,Utilities
+2023-10-12,Electricity bill,981.05,Utilities
+2023-10-12,Spotify,129.00,Subscriptions
+2023-10-13,Pizza night,132.66,Dining Out
+2023-10-14,Clothing,846.18,Shopping
+2023-10-15,Oxxo,462.33,Groceries
+2023-10-15,Soriana,821.11,Groceries
+2023-10-16,Taqueria,123.70,Dining Out
+2023-10-16,Transit card top-up,200.00,Transport
+2023-10-18,Cloud storage,49.00,Subscriptions
+2023-10-19,Cafe,311.45,Dining Out
+2023-10-19,Ride share,95.91,Transport
+2023-10-21,Soriana,580.43,Groceries
+2023-10-21,Home goods,537.43,Shopping
+2023-10-22,Taqueria,148.72,Dining Out
+2023-10-23,Concert ticket,282.91,Entertainment
+2023-10-24,Lunch out,205.51,Dining Out
+2023-10-26,Concert ticket,392.40,Entertainment
+2023-10-28,Ride share,103.82,Transport
+2023-11-01,Rent,6500.00,Housing
+2023-11-01,Transit card top-up,200.00,Transport
+2023-11-02,Gym membership,450.00,Health
+2023-11-03,Netflix,219.00,Subscriptions
+2023-11-03,Electronics accessory,1017.34,Shopping
+2023-11-04,Taqueria,344.54,Dining Out
+2023-11-05,Internet,449.00,Utilities
+2023-11-06,Insurance premium,1200.00,Insurance
+2023-11-07,HEB,699.19,Groceries
+2023-11-07,Streaming rental,271.30,Entertainment
+2023-11-08,Phone plan,299.00,Utilities
+2023-11-10,Water bill,160.72,Utilities
+2023-11-12,Spotify,129.00,Subscriptions
+2023-11-13,Pizza night,152.50,Dining Out
+2023-11-16,Transit card top-up,200.00,Transport
+2023-11-16,Ride share,116.51,Transport
+2023-11-17,Electronics accessory,515.06,Shopping
+2023-11-18,Cloud storage,49.00,Subscriptions
+2023-11-19,Ride share,148.73,Transport
+2023-11-20,Pizza night,181.23,Dining Out
+2023-11-22,HEB,701.08,Groceries
+2023-11-23,Cafe,266.82,Dining Out
+2023-11-24,Oxxo,698.11,Groceries
+2023-11-24,Walmart,664.87,Groceries
+2023-11-24,Ride share,96.60,Transport
+2023-11-24,Online course,249.00,Education
+2023-12-01,Rent,6500.00,Housing
+2023-12-01,Transit card top-up,200.00,Transport
+2023-12-02,Gym membership,450.00,Health
+2023-12-03,Netflix,219.00,Subscriptions
+2023-12-03,Clothing,564.39,Shopping
+2023-12-04,Ride share,70.11,Transport
+2023-12-05,Internet,449.00,Utilities
+2023-12-05,Lunch out,250.19,Dining Out
+2023-12-08,Phone plan,299.00,Utilities
+2023-12-08,Home goods,995.01,Shopping
+2023-12-09,Starbucks,202.83,Dining Out
+2023-12-10,Water bill,207.26,Utilities
+2023-12-10,Oxxo,566.02,Groceries
+2023-12-11,Cafe,79.76,Dining Out
+2023-12-11,Ride share,73.78,Transport
+2023-12-12,Electricity bill,426.93,Utilities
+2023-12-12,Spotify,129.00,Subscriptions
+2023-12-12,Walmart,504.38,Groceries
+2023-12-13,Pizza night,201.14,Dining Out
+2023-12-13,Cinema,80.00,Entertainment
+2023-12-16,Transit card top-up,200.00,Transport
+2023-12-18,Cloud storage,49.00,Subscriptions
+2023-12-21,Walmart,652.75,Groceries
+2023-12-22,Soriana,757.13,Groceries
+2023-12-22,Holiday gifts,1836.06,Shopping
+2023-12-23,Home goods,617.82,Shopping
+2023-12-23,Pharmacy,126.53,Health
+2023-12-26,Ride share,94.87,Transport
+2023-12-28,Oxxo,581.94,Groceries
+2024-01-01,Rent,6500.00,Housing
+2024-01-01,Transit card top-up,200.00,Transport
+2024-01-01,Cinema,276.20,Entertainment
+2024-01-02,Gym membership,450.00,Health
+2024-01-03,Netflix,219.00,Subscriptions
+2024-01-05,Internet,449.00,Utilities
+2024-01-05,Walmart,971.93,Groceries
+2024-01-05,Pizza night,118.60,Dining Out
+2024-01-08,Phone plan,299.00,Utilities
+2024-01-08,Concert ticket,459.90,Entertainment
+2024-01-09,Streaming rental,80.00,Entertainment
+2024-01-10,Water bill,195.82,Utilities
+2024-01-10,Home goods,533.86,Shopping
+2024-01-12,Spotify,129.00,Subscriptions
+2024-01-12,Oxxo,698.40,Groceries
+2024-01-14,Soriana,833.72,Groceries
+2024-01-14,Ride share,143.53,Transport
+2024-01-14,Ride share,70.42,Transport
+2024-01-16,Transit card top-up,200.00,Transport
+2024-01-16,Ride share,120.71,Transport
+2024-01-16,Online course,249.00,Education
+2024-01-18,Cloud storage,49.00,Subscriptions
+2024-01-18,HEB,1002.39,Groceries
+2024-01-18,Pizza night,190.00,Dining Out
+2024-01-19,Soriana,424.83,Groceries
+2024-01-19,Ride share,126.58,Transport
+2024-01-22,Ride share,189.87,Transport
+2024-01-23,Pizza night,126.61,Dining Out
+2024-01-28,Taqueria,86.10,Dining Out
+2024-02-01,Rent,6500.00,Housing
+2024-02-01,Pizza night,173.02,Dining Out
+2024-02-01,Transit card top-up,200.00,Transport
+2024-02-01,Ride share,178.95,Transport
+2024-02-02,Gym membership,450.00,Health
+2024-02-02,Soriana,490.45,Groceries
+2024-02-03,Netflix,219.00,Subscriptions
+2024-02-04,Lunch out,327.54,Dining Out
+2024-02-05,Internet,449.00,Utilities
+2024-02-05,Pizza night,352.12,Dining Out
+2024-02-06,Insurance premium,1200.00,Insurance
+2024-02-06,Starbucks,169.05,Dining Out
+2024-02-08,Phone plan,299.00,Utilities
+2024-02-08,Ride share,55.27,Transport
+2024-02-08,Streaming rental,396.50,Entertainment
+2024-02-09,Taqueria,94.99,Dining Out
+2024-02-10,Water bill,193.26,Utilities
+2024-02-11,Walmart,469.29,Groceries
+2024-02-11,Ride share,171.43,Transport
+2024-02-11,Ride share,61.02,Transport
+2024-02-12,Electricity bill,503.07,Utilities
+2024-02-12,Spotify,129.00,Subscriptions
+2024-02-12,Ride share,127.15,Transport
+2024-02-16,Transit card top-up,200.00,Transport
+2024-02-18,Cloud storage,49.00,Subscriptions
+2024-02-21,Cinema,519.22,Entertainment
+2024-02-21,Cinema,510.81,Entertainment
+2024-02-23,HEB,451.36,Groceries
+2024-02-24,Lunch out,199.32,Dining Out
+2024-02-26,Walmart,389.31,Groceries
+2024-02-26,Pizza night,151.07,Dining Out
+2024-02-27,Soriana,734.69,Groceries
+2024-03-01,Rent,6500.00,Housing
+2024-03-01,Transit card top-up,200.00,Transport
+2024-03-02,Gym membership,450.00,Health
+2024-03-03,Netflix,219.00,Subscriptions
+2024-03-03,Cafe,212.76,Dining Out
+2024-03-03,Taqueria,180.51,Dining Out
+2024-03-03,Pharmacy,406.57,Health
+2024-03-04,HEB,791.67,Groceries
+2024-03-04,Oxxo,639.28,Groceries
+2024-03-04,Starbucks,258.43,Dining Out
+2024-03-05,Internet,449.00,Utilities
+2024-03-06,HEB,576.49,Groceries
+2024-03-08,Phone plan,299.00,Utilities
+2024-03-09,Ride share,103.82,Transport
+2024-03-10,Water bill,225.19,Utilities
+2024-03-12,Spotify,129.00,Subscriptions
+2024-03-13,Cafe,253.97,Dining Out
+2024-03-14,Ride share,119.70,Transport
+2024-03-16,Transit card top-up,200.00,Transport
+2024-03-18,Cloud storage,49.00,Subscriptions
+2024-03-20,Oxxo,381.86,Groceries
+2024-03-22,Disney+,159.00,Subscriptions
+2024-03-24,Game purchase,313.57,Entertainment
+2024-03-27,Ride share,82.16,Transport
+2024-04-01,Rent,6500.00,Housing
+2024-04-01,Transit card top-up,200.00,Transport
+2024-04-02,Gym membership,450.00,Health
+2024-04-02,Lunch out,176.86,Dining Out
+2024-04-02,Game purchase,334.83,Entertainment
+2024-04-03,Netflix,219.00,Subscriptions
+2024-04-04,Walmart,897.25,Groceries
+2024-04-05,Internet,449.00,Utilities
+2024-04-05,Ride share,179.15,Transport
+2024-04-05,Online order,646.47,Shopping
+2024-04-07,Starbucks,111.29,Dining Out
+2024-04-08,Phone plan,299.00,Utilities
+2024-04-09,Soriana,506.09,Groceries
+2024-04-09,Ride share,100.19,Transport
+2024-04-09,Ride share,141.09,Transport
+2024-04-10,Water bill,182.82,Utilities
+2024-04-12,Electricity bill,741.95,Utilities
+2024-04-12,Spotify,129.00,Subscriptions
+2024-04-13,Oxxo,614.21,Groceries
+2024-04-13,Starbucks,401.63,Dining Out
+2024-04-13,Clothing,604.73,Shopping
+2024-04-13,Pharmacy,271.14,Health
+2024-04-16,Transit card top-up,200.00,Transport
+2024-04-18,Cloud storage,49.00,Subscriptions
+2024-04-19,Taqueria,70.00,Dining Out
+2024-04-22,Disney+,159.00,Subscriptions
+2024-04-22,Soriana,533.52,Groceries
+2024-04-23,Lunch out,471.46,Dining Out
+2024-04-24,Oxxo,915.29,Groceries
+2024-05-01,Rent,6500.00,Housing
+2024-05-01,Transit card top-up,200.00,Transport
+2024-05-02,Gym membership,450.00,Health
+2024-05-02,Ride share,45.00,Transport
+2024-05-03,Netflix,219.00,Subscriptions
+2024-05-03,Taqueria,233.65,Dining Out
+2024-05-04,Netflix,219.00,Subscriptions
+2024-05-04,Ride share,123.12,Transport
+2024-05-05,Internet,449.00,Utilities
+2024-05-06,Insurance premium,1200.00,Insurance
+2024-05-06,HEB,1269.10,Groceries
+2024-05-06,Concert ticket,249.83,Entertainment
+2024-05-07,Soriana,996.14,Groceries
+2024-05-07,Lunch out,167.56,Dining Out
+2024-05-08,Phone plan,299.00,Utilities
+2024-05-10,Water bill,190.00,Utilities
+2024-05-11,Soriana,707.45,Groceries
+2024-05-11,Ride share,121.84,Transport
+2024-05-12,Spotify,129.00,Subscriptions
+2024-05-12,Oxxo,482.13,Groceries
+2024-05-12,Lunch out,70.00,Dining Out
+2024-05-16,Transit card top-up,200.00,Transport
+2024-05-17,Lunch out,214.72,Dining Out
+2024-05-17,Ride share,48.65,Transport
+2024-05-18,Cloud storage,49.00,Subscriptions
+2024-05-18,Cafe,200.69,Dining Out
+2024-05-21,Concert ticket,290.80,Entertainment
+2024-05-22,Disney+,159.00,Subscriptions
+2024-05-22,Ride share,117.06,Transport
+2024-05-24,Oxxo,719.63,Groceries
+2024-05-24,Lunch out,250.90,Dining Out
+2024-05-24,Cafe,223.73,Dining Out
+2024-05-28,Pizza night,70.00,Dining Out
+2024-06-01,Rent,6500.00,Housing
+2024-06-01,Transit card top-up,200.00,Transport
+2024-06-02,Gym membership,450.00,Health
+2024-06-03,Netflix,219.00,Subscriptions
+2024-06-03,Game purchase,355.25,Entertainment
+2024-06-04,Ride share,134.35,Transport
+2024-06-05,Internet,449.00,Utilities
+2024-06-05,Taqueria,346.01,Dining Out
+2024-06-07,Clothing,463.56,Shopping
+2024-06-08,Phone plan,299.00,Utilities
+2024-06-09,Domain renewal,349.00,Subscriptions
+2024-06-10,Water bill,219.44,Utilities
+2024-06-12,Electricity bill,947.42,Utilities
+2024-06-12,Spotify,129.00,Subscriptions
+2024-06-13,Lunch out,147.10,Dining Out
+2024-06-14,Laptop repair,4800.00,Shopping
+2024-06-15,Pizza night,151.29,Dining Out
+2024-06-15,Ride share,126.56,Transport
+2024-06-16,Transit card top-up,200.00,Transport
+2024-06-16,Ride share,45.00,Transport
+2024-06-17,Cafe,70.00,Dining Out
+2024-06-18,Cloud storage,49.00,Subscriptions
+2024-06-18,Oxxo,496.57,Groceries
+2024-06-18,Oxxo,815.19,Groceries
+2024-06-20,Walmart,608.06,Groceries
+2024-06-20,Ride share,112.88,Transport
+2024-06-21,Soriana,390.77,Groceries
+2024-06-21,Taqueria,104.52,Dining Out
+2024-06-21,Lunch out,149.60,Dining Out
+2024-06-22,Disney+,159.00,Subscriptions
+2024-06-23,Soriana,584.75,Groceries
+2024-06-24,Oxxo,746.58,Groceries
+2024-06-24,Electronics accessory,120.00,Shopping
+2024-06-26,Pharmacy,253.24,Health
+2024-06-27,Cafe,212.95,Dining Out
+2024-07-01,Rent,6500.00,Housing
+2024-07-01,Starbucks,285.76,Dining Out
+2024-07-01,Transit card top-up,200.00,Transport
+2024-07-01,Streaming rental,378.18,Entertainment
+2024-07-02,Gym membership,450.00,Health
+2024-07-03,Netflix,219.00,Subscriptions
+2024-07-03,Online order,755.30,Shopping
+2024-07-03,Electronics accessory,791.68,Shopping
+2024-07-04,Pizza night,329.61,Dining Out
+2024-07-05,Internet,449.00,Utilities
+2024-07-05,Oxxo,869.96,Groceries
+2024-07-07,Cinema,273.06,Entertainment
+2024-07-08,Phone plan,299.00,Utilities
+2024-07-08,Walmart,460.06,Groceries
+2024-07-08,Electronics accessory,883.75,Shopping
+2024-07-09,Walmart,616.45,Groceries
+2024-07-10,Water bill,195.86,Utilities
+2024-07-11,Ride share,112.17,Transport
+2024-07-12,Spotify,129.00,Subscriptions
+2024-07-12,Cafe,419.49,Dining Out
+2024-07-13,Walmart,622.50,Groceries
+2024-07-13,Ride share,127.59,Transport
+2024-07-14,Cafe,168.81,Dining Out
+2024-07-15,Ride share,121.05,Transport
+2024-07-16,Pizza night,327.86,Dining Out
+2024-07-16,Transit card top-up,200.00,Transport
+2024-07-18,Cloud storage,49.00,Subscriptions
+2024-07-21,Soriana,486.41,Groceries
+2024-07-21,Taqueria,97.35,Dining Out
+2024-07-22,Disney+,159.00,Subscriptions
+2024-07-23,Online course,299.00,Education
+2024-07-24,Cinema,423.08,Entertainment
+2024-07-25,Taqueria,70.00,Dining Out
+2024-07-26,Ride share,53.49,Transport
+2024-07-26,Pharmacy,169.42,Health
+2024-07-27,Oxxo,694.51,Groceries
+2024-07-28,Ride share,78.23,Transport
+2024-08-01,Rent,6500.00,Housing
+2024-08-01,Transit card top-up,200.00,Transport
+2024-08-02,Gym membership,450.00,Health
+2024-08-02,Ride share,128.99,Transport
+2024-08-03,Netflix,219.00,Subscriptions
+2024-08-04,Oxxo,889.63,Groceries
+2024-08-04,Oxxo,628.42,Groceries
+2024-08-05,Internet,449.00,Utilities
+2024-08-05,Clothing,458.00,Shopping
+2024-08-06,Insurance premium,1200.00,Insurance
+2024-08-06,Home goods,272.10,Shopping
+2024-08-07,Ride share,45.00,Transport
+2024-08-08,Phone plan,299.00,Utilities
+2024-08-08,Taqueria,282.32,Dining Out
+2024-08-10,Water bill,152.95,Utilities
+2024-08-12,Electricity bill,647.97,Utilities
+2024-08-12,Spotify,129.00,Subscriptions
+2024-08-13,Electronics accessory,871.16,Shopping
+2024-08-15,Ride share,68.38,Transport
+2024-08-16,Transit card top-up,200.00,Transport
+2024-08-18,Cloud storage,49.00,Subscriptions
+2024-08-19,Soriana,587.33,Groceries
+2024-08-21,Pizza night,218.29,Dining Out
+2024-08-21,Lunch out,130.07,Dining Out
+2024-08-22,Disney+,159.00,Subscriptions
+2024-08-23,Oxxo,634.79,Groceries
+2024-08-24,Taqueria,156.50,Dining Out
+2024-08-25,Game purchase,354.29,Entertainment
+2024-08-28,Ride share,54.71,Transport
+2024-09-01,Rent,6500.00,Housing
+2024-09-01,Transit card top-up,200.00,Transport
+2024-09-02,Gym membership,450.00,Health
+2024-09-02,Pharmacy,239.90,Health
+2024-09-03,Netflix,219.00,Subscriptions
+2024-09-04,Soriana,665.26,Groceries
+2024-09-05,Internet,449.00,Utilities
+2024-09-05,Soriana,621.15,Groceries
+2024-09-05,Pizza night,123.41,Dining Out
+2024-09-07,Ride share,152.55,Transport
+2024-09-08,Phone plan,299.00,Utilities
+2024-09-08,Oxxo,886.77,Groceries
+2024-09-09,Starbucks,384.35,Dining Out
+2024-09-09,Cinema,172.27,Entertainment
+2024-09-10,Water bill,216.68,Utilities
+2024-09-10,Starbucks,173.36,Dining Out
+2024-09-12,Spotify,129.00,Subscriptions
+2024-09-12,Walmart,1079.22,Groceries
+2024-09-15,Electronics accessory,789.23,Shopping
+2024-09-15,Game purchase,183.08,Entertainment
+2024-09-16,Transit card top-up,200.00,Transport
+2024-09-16,Ride share,117.41,Transport
+2024-09-17,Starbucks,168.72,Dining Out
+2024-09-18,Cloud storage,49.00,Subscriptions
+2024-09-19,HEB,895.21,Groceries
+2024-09-19,Ride share,134.77,Transport
+2024-09-22,Disney+,159.00,Subscriptions
+2024-09-22,Pizza night,207.67,Dining Out
+2024-09-23,Ride share,64.32,Transport
+2024-09-23,Clothing,736.61,Shopping
+2024-09-24,Pizza night,70.00,Dining Out
+2024-09-26,Cinema,291.48,Entertainment
+2024-09-28,Cafe,135.00,Dining Out
+2024-10-01,Rent,6900.00,Housing
+2024-10-01,Oxxo,212.02,Groceries
 2024-10-01,Transit card top-up,200.00,Transport
 2024-10-02,Gym membership,450.00,Health
 2024-10-03,Netflix,219.00,Subscriptions
+2024-10-03,Starbucks,249.14,Dining Out
+2024-10-03,Concert ticket,319.72,Entertainment
 2024-10-05,Internet,449.00,Utilities
-2024-10-05,Electronics accessory,872.33,Shopping
-2024-10-06,Walmart,363.52,Groceries
-2024-10-06,Pharmacy,105.80,Health
+2024-10-05,Walmart,491.71,Groceries
+2024-10-05,Starbucks,183.24,Dining Out
 2024-10-08,Phone plan,299.00,Utilities
-2024-10-10,Water bill,164.00,Utilities
-2024-10-12,Electricity bill,981.05,Utilities
+2024-10-09,Walmart,247.09,Groceries
+2024-10-10,Water bill,201.35,Utilities
+2024-10-12,Electricity bill,866.66,Utilities
 2024-10-12,Spotify,129.00,Subscriptions
-2024-10-13,Pizza night,132.66,Dining Out
-2024-10-14,Clothing,846.18,Shopping
-2024-10-15,Oxxo,462.33,Groceries
-2024-10-15,Soriana,821.11,Groceries
-2024-10-16,Taqueria,123.70,Dining Out
+2024-10-12,Lunch out,251.86,Dining Out
+2024-10-12,Ride share,175.16,Transport
+2024-10-13,Game purchase,233.62,Entertainment
+2024-10-14,Starbucks,148.05,Dining Out
+2024-10-14,Pharmacy,147.44,Health
+2024-10-14,Online course,249.00,Education
+2024-10-15,Taqueria,161.09,Dining Out
 2024-10-16,Transit card top-up,200.00,Transport
 2024-10-18,Cloud storage,49.00,Subscriptions
-2024-10-19,Cafe,311.45,Dining Out
-2024-10-19,Ride share,95.91,Transport
-2024-10-21,Soriana,580.43,Groceries
-2024-10-21,Home goods,537.43,Shopping
-2024-10-22,Taqueria,148.72,Dining Out
-2024-10-23,Concert ticket,282.91,Entertainment
-2024-10-24,Lunch out,205.51,Dining Out
-2024-10-26,Concert ticket,392.40,Entertainment
-2024-10-28,Ride share,103.82,Transport
-2024-11-01,Rent,6500.00,Housing
+2024-10-19,Cafe,241.02,Dining Out
+2024-10-22,Disney+,159.00,Subscriptions
+2024-10-24,Walmart,950.05,Groceries
+2024-10-24,Ride share,71.19,Transport
+2024-10-26,Cafe,202.25,Dining Out
+2024-10-28,Streaming rental,271.30,Entertainment
+2024-11-01,Rent,6900.00,Housing
 2024-11-01,Transit card top-up,200.00,Transport
+2024-11-01,Ride share,123.37,Transport
+2024-11-01,Pharmacy,196.92,Health
 2024-11-02,Gym membership,450.00,Health
 2024-11-03,Netflix,219.00,Subscriptions
-2024-11-03,Electronics accessory,1017.34,Shopping
-2024-11-04,Taqueria,344.54,Dining Out
+2024-11-04,Ride share,60.22,Transport
 2024-11-05,Internet,449.00,Utilities
-2024-11-07,HEB,699.19,Groceries
-2024-11-07,Streaming rental,271.30,Entertainment
+2024-11-06,Insurance premium,1200.00,Insurance
+2024-11-07,HEB,468.23,Groceries
 2024-11-08,Phone plan,299.00,Utilities
-2024-11-10,Water bill,160.72,Utilities
+2024-11-08,Cinema,202.06,Entertainment
+2024-11-10,Water bill,205.94,Utilities
+2024-11-10,Starbucks,236.68,Dining Out
+2024-11-11,Ride share,146.01,Transport
 2024-11-12,Spotify,129.00,Subscriptions
-2024-11-13,Pizza night,152.50,Dining Out
+2024-11-12,Ride share,112.05,Transport
+2024-11-13,Lunch out,142.18,Dining Out
+2024-11-14,Soriana,902.52,Groceries
+2024-11-14,Walmart,476.96,Groceries
 2024-11-16,Transit card top-up,200.00,Transport
-2024-11-16,Ride share,116.51,Transport
-2024-11-17,Electronics accessory,515.06,Shopping
 2024-11-18,Cloud storage,49.00,Subscriptions
-2024-11-19,Ride share,148.73,Transport
-2024-11-20,Pizza night,181.23,Dining Out
-2024-11-22,HEB,701.08,Groceries
-2024-11-23,Cafe,266.82,Dining Out
-2024-11-24,Oxxo,698.11,Groceries
-2024-11-24,Walmart,664.87,Groceries
-2024-11-24,Ride share,96.60,Transport
-2024-11-24,Online course,249.00,Education
-2024-12-01,Rent,6500.00,Housing
+2024-11-18,Oxxo,610.57,Groceries
+2024-11-20,Pizza night,202.16,Dining Out
+2024-11-21,Cafe,273.62,Dining Out
+2024-11-22,Disney+,159.00,Subscriptions
+2024-11-23,Cafe,228.30,Dining Out
+2024-11-24,Ride share,74.45,Transport
+2024-11-25,Starbucks,244.65,Dining Out
+2024-12-01,Rent,6900.00,Housing
 2024-12-01,Transit card top-up,200.00,Transport
 2024-12-02,Gym membership,450.00,Health
+2024-12-02,Starbucks,171.88,Dining Out
+2024-12-02,Pharmacy,86.91,Health
 2024-12-03,Netflix,219.00,Subscriptions
-2024-12-03,Clothing,564.39,Shopping
-2024-12-04,Ride share,70.11,Transport
+2024-12-03,Oxxo,1089.41,Groceries
 2024-12-05,Internet,449.00,Utilities
-2024-12-05,Lunch out,250.19,Dining Out
+2024-12-07,Streaming rental,80.00,Entertainment
 2024-12-08,Phone plan,299.00,Utilities
-2024-12-08,Home goods,995.01,Shopping
-2024-12-09,Starbucks,202.83,Dining Out
-2024-12-10,Water bill,207.26,Utilities
-2024-12-10,Oxxo,566.02,Groceries
-2024-12-11,Cafe,79.76,Dining Out
-2024-12-11,Ride share,73.78,Transport
-2024-12-12,Electricity bill,426.93,Utilities
-2024-12-12,Spotify,129.00,Subscriptions
-2024-12-12,Walmart,504.38,Groceries
-2024-12-13,Pizza night,201.14,Dining Out
-2024-12-13,Cinema,80.00,Entertainment
+2024-12-08,Streaming rental,414.44,Entertainment
+2024-12-10,Water bill,167.51,Utilities
+2024-12-12,Electricity bill,460.25,Utilities
+2024-12-12,Spotify,149.00,Subscriptions
+2024-12-12,Ride share,86.90,Transport
+2024-12-14,Lunch out,283.13,Dining Out
+2024-12-14,Lunch out,70.00,Dining Out
+2024-12-15,Oxxo,395.60,Groceries
 2024-12-16,Transit card top-up,200.00,Transport
 2024-12-18,Cloud storage,49.00,Subscriptions
-2024-12-21,Walmart,652.75,Groceries
-2024-12-22,Soriana,757.13,Groceries
-2024-12-22,Holiday gifts,1836.06,Shopping
-2024-12-23,Home goods,617.82,Shopping
-2024-12-23,Pharmacy,126.53,Health
-2024-12-26,Ride share,94.87,Transport
-2024-12-28,Oxxo,581.94,Groceries
-2025-01-01,Rent,6500.00,Housing
+2024-12-18,Walmart,414.13,Groceries
+2024-12-19,Lunch out,355.00,Dining Out
+2024-12-19,Ride share,84.90,Transport
+2024-12-21,Lunch out,70.00,Dining Out
+2024-12-22,Disney+,159.00,Subscriptions
+2024-12-22,Holiday gifts,1088.13,Shopping
+2024-12-23,Oxxo,924.55,Groceries
+2024-12-23,Soriana,465.76,Groceries
+2024-12-28,Walmart,729.96,Groceries
+2024-12-28,Taqueria,232.41,Dining Out
+2025-01-01,Rent,6900.00,Housing
 2025-01-01,Transit card top-up,200.00,Transport
-2025-01-01,Cinema,276.20,Entertainment
+2025-01-01,Game purchase,169.64,Entertainment
 2025-01-02,Gym membership,450.00,Health
+2025-01-02,Cinema,388.09,Entertainment
 2025-01-03,Netflix,219.00,Subscriptions
+2025-01-03,Cafe,257.21,Dining Out
+2025-01-04,Ride share,45.00,Transport
 2025-01-05,Internet,449.00,Utilities
-2025-01-05,Walmart,971.93,Groceries
-2025-01-05,Pizza night,118.60,Dining Out
+2025-01-07,Soriana,657.06,Groceries
+2025-01-07,Starbucks,70.00,Dining Out
 2025-01-08,Phone plan,299.00,Utilities
-2025-01-08,Concert ticket,459.90,Entertainment
-2025-01-09,Streaming rental,80.00,Entertainment
-2025-01-10,Water bill,195.82,Utilities
-2025-01-10,Home goods,533.86,Shopping
-2025-01-12,Spotify,129.00,Subscriptions
-2025-01-12,Oxxo,698.40,Groceries
-2025-01-14,Soriana,833.72,Groceries
-2025-01-14,Ride share,143.53,Transport
-2025-01-14,Ride share,70.42,Transport
+2025-01-09,Lunch out,70.00,Dining Out
+2025-01-10,Water bill,169.84,Utilities
+2025-01-10,Pizza night,439.44,Dining Out
+2025-01-12,Spotify,149.00,Subscriptions
+2025-01-12,Walmart,703.16,Groceries
+2025-01-12,Pizza night,184.24,Dining Out
+2025-01-12,Ride share,104.32,Transport
+2025-01-14,Ride share,183.91,Transport
+2025-01-14,Flight tickets,6200.00,Travel
+2025-01-15,Walmart,532.64,Groceries
 2025-01-16,Transit card top-up,200.00,Transport
-2025-01-16,Ride share,120.71,Transport
-2025-01-16,Online course,249.00,Education
+2025-01-17,Ride share,116.58,Transport
 2025-01-18,Cloud storage,49.00,Subscriptions
-2025-01-18,HEB,1002.39,Groceries
-2025-01-18,Pizza night,190.00,Dining Out
-2025-01-19,Soriana,424.83,Groceries
-2025-01-19,Ride share,126.58,Transport
-2025-01-22,Ride share,189.87,Transport
-2025-01-23,Pizza night,126.61,Dining Out
-2025-01-28,Taqueria,86.10,Dining Out
-2025-02-01,Rent,6500.00,Housing
-2025-02-01,Pizza night,173.02,Dining Out
+2025-01-20,Soriana,949.78,Groceries
+2025-01-21,Pizza night,272.93,Dining Out
+2025-01-22,Disney+,159.00,Subscriptions
+2025-01-25,Pizza night,109.80,Dining Out
+2025-01-26,Oxxo,969.26,Groceries
+2025-01-26,Ride share,103.03,Transport
+2025-01-27,Oxxo,513.67,Groceries
+2025-01-28,Pizza night,225.48,Dining Out
+2025-02-01,Rent,6900.00,Housing
+2025-02-01,Walmart,360.30,Groceries
 2025-02-01,Transit card top-up,200.00,Transport
-2025-02-01,Ride share,178.95,Transport
 2025-02-02,Gym membership,450.00,Health
-2025-02-02,Soriana,490.45,Groceries
+2025-02-02,Game purchase,162.73,Entertainment
 2025-02-03,Netflix,219.00,Subscriptions
-2025-02-04,Lunch out,327.54,Dining Out
+2025-02-03,Ride share,93.01,Transport
 2025-02-05,Internet,449.00,Utilities
-2025-02-05,Pizza night,352.12,Dining Out
-2025-02-06,Starbucks,169.05,Dining Out
+2025-02-06,Insurance premium,1200.00,Insurance
+2025-02-06,Ride share,141.63,Transport
+2025-02-07,Walmart,709.92,Groceries
 2025-02-08,Phone plan,299.00,Utilities
-2025-02-08,Ride share,55.27,Transport
-2025-02-08,Streaming rental,396.50,Entertainment
-2025-02-09,Taqueria,94.99,Dining Out
-2025-02-10,Water bill,193.26,Utilities
-2025-02-11,Walmart,469.29,Groceries
-2025-02-11,Ride share,171.43,Transport
-2025-02-11,Ride share,61.02,Transport
-2025-02-12,Electricity bill,503.07,Utilities
-2025-02-12,Spotify,129.00,Subscriptions
-2025-02-12,Ride share,127.15,Transport
+2025-02-09,HEB,180.00,Groceries
+2025-02-09,HEB,726.86,Groceries
+2025-02-09,Ride share,91.65,Transport
+2025-02-09,Home goods,120.00,Shopping
+2025-02-10,Water bill,189.56,Utilities
+2025-02-10,HEB,274.76,Groceries
+2025-02-12,Electricity bill,401.27,Utilities
+2025-02-12,Spotify,149.00,Subscriptions
+2025-02-14,Lunch out,322.66,Dining Out
+2025-02-16,Oxxo,756.05,Groceries
+2025-02-16,Taqueria,244.89,Dining Out
 2025-02-16,Transit card top-up,200.00,Transport
 2025-02-18,Cloud storage,49.00,Subscriptions
-2025-02-21,Cinema,519.22,Entertainment
-2025-02-21,Cinema,510.81,Entertainment
-2025-02-23,HEB,451.36,Groceries
-2025-02-24,Lunch out,199.32,Dining Out
-2025-02-26,Walmart,389.31,Groceries
-2025-02-26,Pizza night,151.07,Dining Out
-2025-02-27,Soriana,734.69,Groceries
-2025-03-01,Rent,6500.00,Housing
+2025-02-19,Pizza night,170.81,Dining Out
+2025-02-22,Disney+,159.00,Subscriptions
+2025-02-22,Pizza night,283.51,Dining Out
+2025-02-25,Starbucks,244.66,Dining Out
+2025-02-27,Electronics accessory,1080.82,Shopping
+2025-02-27,Clothing,369.32,Shopping
+2025-03-01,Rent,6900.00,Housing
 2025-03-01,Transit card top-up,200.00,Transport
+2025-03-01,Cinema,416.67,Entertainment
+2025-03-01,Streaming rental,80.00,Entertainment
 2025-03-02,Gym membership,450.00,Health
 2025-03-03,Netflix,219.00,Subscriptions
-2025-03-03,Cafe,212.76,Dining Out
-2025-03-03,Taqueria,180.51,Dining Out
-2025-03-03,Pharmacy,406.57,Health
-2025-03-04,HEB,791.67,Groceries
-2025-03-04,Oxxo,639.28,Groceries
-2025-03-04,Starbucks,258.43,Dining Out
 2025-03-05,Internet,449.00,Utilities
-2025-03-06,HEB,576.49,Groceries
+2025-03-05,Soriana,603.65,Groceries
+2025-03-05,Ride share,102.49,Transport
+2025-03-06,Ride share,131.95,Transport
+2025-03-07,HEB,647.00,Groceries
+2025-03-07,Starbucks,235.43,Dining Out
 2025-03-08,Phone plan,299.00,Utilities
-2025-03-09,Ride share,103.82,Transport
-2025-03-10,Water bill,225.19,Utilities
-2025-03-12,Spotify,129.00,Subscriptions
-2025-03-13,Cafe,253.97,Dining Out
-2025-03-14,Ride share,119.70,Transport
+2025-03-08,Soriana,306.03,Groceries
+2025-03-09,HEB,422.28,Groceries
+2025-03-10,Water bill,188.58,Utilities
+2025-03-10,Starbucks,70.00,Dining Out
+2025-03-12,Spotify,149.00,Subscriptions
+2025-03-13,Pizza night,178.41,Dining Out
+2025-03-13,Ride share,127.91,Transport
+2025-03-14,Lunch out,126.94,Dining Out
 2025-03-16,Transit card top-up,200.00,Transport
 2025-03-18,Cloud storage,49.00,Subscriptions
-2025-03-20,Oxxo,381.86,Groceries
-2025-03-24,Game purchase,313.57,Entertainment
-2025-03-27,Ride share,82.16,Transport
-2025-04-01,Rent,6500.00,Housing
+2025-03-18,Game purchase,450.26,Entertainment
+2025-03-22,Disney+,159.00,Subscriptions
+2025-03-24,Pizza night,201.34,Dining Out
+2025-03-26,Soriana,449.67,Groceries
+2025-03-27,Starbucks,107.39,Dining Out
+2025-03-28,Walmart,601.26,Groceries
+2025-04-01,Rent,6900.00,Housing
 2025-04-01,Transit card top-up,200.00,Transport
+2025-04-01,Online course,299.00,Education
 2025-04-02,Gym membership,450.00,Health
-2025-04-02,Lunch out,176.86,Dining Out
-2025-04-02,Game purchase,334.83,Entertainment
 2025-04-03,Netflix,219.00,Subscriptions
-2025-04-04,Walmart,897.25,Groceries
+2025-04-03,Walmart,447.41,Groceries
+2025-04-03,Lunch out,240.67,Dining Out
+2025-04-04,Ride share,164.03,Transport
+2025-04-04,Online order,781.12,Shopping
 2025-04-05,Internet,449.00,Utilities
-2025-04-05,Ride share,179.15,Transport
-2025-04-05,Online order,646.47,Shopping
-2025-04-07,Starbucks,111.29,Dining Out
+2025-04-05,Ride share,58.81,Transport
+2025-04-07,Oxxo,426.69,Groceries
 2025-04-08,Phone plan,299.00,Utilities
-2025-04-09,Soriana,506.09,Groceries
-2025-04-09,Ride share,100.19,Transport
-2025-04-09,Ride share,141.09,Transport
-2025-04-10,Water bill,182.82,Utilities
-2025-04-12,Electricity bill,741.95,Utilities
-2025-04-12,Spotify,129.00,Subscriptions
-2025-04-13,Oxxo,614.21,Groceries
-2025-04-13,Starbucks,401.63,Dining Out
-2025-04-13,Clothing,604.73,Shopping
-2025-04-13,Pharmacy,271.14,Health
+2025-04-09,Taqueria,267.57,Dining Out
+2025-04-10,Water bill,192.48,Utilities
+2025-04-10,Cafe,217.53,Dining Out
+2025-04-12,Electricity bill,1000.53,Utilities
+2025-04-12,Spotify,149.00,Subscriptions
+2025-04-12,Pizza night,276.60,Dining Out
+2025-04-13,Walmart,568.22,Groceries
+2025-04-15,Home goods,178.94,Shopping
 2025-04-16,Transit card top-up,200.00,Transport
+2025-04-17,Taqueria,322.47,Dining Out
 2025-04-18,Cloud storage,49.00,Subscriptions
-2025-04-19,Taqueria,70.00,Dining Out
-2025-04-22,Soriana,533.52,Groceries
-2025-04-23,Lunch out,471.46,Dining Out
-2025-04-24,Oxxo,915.29,Groceries
-2025-05-01,Rent,6500.00,Housing
+2025-04-20,Ride share,164.37,Transport
+2025-04-20,Electronics accessory,858.80,Shopping
+2025-04-24,Ride share,179.16,Transport
+2025-04-26,Cinema,569.63,Entertainment
+2025-04-28,Soriana,652.52,Groceries
+2025-04-28,Oxxo,1042.74,Groceries
+2025-05-01,Rent,6900.00,Housing
+2025-05-01,Pizza night,232.76,Dining Out
 2025-05-01,Transit card top-up,200.00,Transport
 2025-05-02,Gym membership,450.00,Health
-2025-05-02,Ride share,45.00,Transport
+2025-05-02,Walmart,374.93,Groceries
 2025-05-03,Netflix,219.00,Subscriptions
-2025-05-03,Taqueria,233.65,Dining Out
-2025-05-04,Netflix,219.00,Subscriptions
-2025-05-04,Ride share,123.12,Transport
 2025-05-05,Internet,449.00,Utilities
-2025-05-06,HEB,1269.10,Groceries
-2025-05-06,Concert ticket,249.83,Entertainment
-2025-05-07,Soriana,996.14,Groceries
-2025-05-07,Lunch out,167.56,Dining Out
+2025-05-06,Insurance premium,1200.00,Insurance
+2025-05-06,Cafe,241.01,Dining Out
+2025-05-06,Pharmacy,60.00,Health
 2025-05-08,Phone plan,299.00,Utilities
-2025-05-10,Water bill,190.00,Utilities
-2025-05-11,Soriana,707.45,Groceries
-2025-05-11,Ride share,121.84,Transport
-2025-05-12,Spotify,129.00,Subscriptions
-2025-05-12,Oxxo,482.13,Groceries
-2025-05-12,Lunch out,70.00,Dining Out
+2025-05-09,Soriana,736.08,Groceries
+2025-05-10,Water bill,184.93,Utilities
+2025-05-12,Spotify,149.00,Subscriptions
+2025-05-12,Cafe,153.47,Dining Out
+2025-05-14,Ride share,64.42,Transport
+2025-05-14,Dental emergency,3500.00,Health
 2025-05-16,Transit card top-up,200.00,Transport
-2025-05-17,Lunch out,214.72,Dining Out
-2025-05-17,Ride share,48.65,Transport
+2025-05-17,Soriana,883.03,Groceries
 2025-05-18,Cloud storage,49.00,Subscriptions
-2025-05-18,Cafe,200.69,Dining Out
-2025-05-21,Concert ticket,290.80,Entertainment
-2025-05-22,Ride share,117.06,Transport
-2025-05-24,Oxxo,719.63,Groceries
-2025-05-24,Lunch out,250.90,Dining Out
-2025-05-24,Cafe,223.73,Dining Out
-2025-05-28,Pizza night,70.00,Dining Out
-2025-06-01,Rent,6500.00,Housing
+2025-05-18,Soriana,616.77,Groceries
+2025-05-20,Cinema,125.69,Entertainment
+2025-05-21,Pizza night,181.28,Dining Out
+2025-05-22,Pizza night,325.86,Dining Out
+2025-05-22,Cafe,198.10,Dining Out
+2025-05-22,Ride share,93.92,Transport
+2025-05-24,Oxxo,623.01,Groceries
+2025-05-25,Oxxo,658.56,Groceries
+2025-05-25,Ride share,119.76,Transport
+2025-05-26,Lunch out,191.81,Dining Out
+2025-06-01,Rent,6900.00,Housing
+2025-06-01,Oxxo,1054.23,Groceries
 2025-06-01,Transit card top-up,200.00,Transport
 2025-06-02,Gym membership,450.00,Health
+2025-06-02,Cinema,399.99,Entertainment
 2025-06-03,Netflix,219.00,Subscriptions
-2025-06-03,Game purchase,355.25,Entertainment
-2025-06-04,Ride share,134.35,Transport
 2025-06-05,Internet,449.00,Utilities
-2025-06-05,Taqueria,346.01,Dining Out
-2025-06-07,Clothing,463.56,Shopping
 2025-06-08,Phone plan,299.00,Utilities
-2025-06-10,Water bill,219.44,Utilities
-2025-06-12,Electricity bill,947.42,Utilities
-2025-06-12,Spotify,129.00,Subscriptions
-2025-06-13,Lunch out,147.10,Dining Out
-2025-06-14,Laptop repair,4800.00,Shopping
-2025-06-15,Pizza night,151.29,Dining Out
-2025-06-15,Ride share,126.56,Transport
+2025-06-09,Domain renewal,349.00,Subscriptions
+2025-06-09,Cafe,496.10,Dining Out
+2025-06-10,Water bill,220.35,Utilities
+2025-06-10,Cinema,363.74,Entertainment
+2025-06-11,Lunch out,367.83,Dining Out
+2025-06-11,Clothing,811.43,Shopping
+2025-06-12,Electricity bill,611.33,Utilities
+2025-06-12,Spotify,149.00,Subscriptions
+2025-06-13,Soriana,1069.11,Groceries
+2025-06-15,Ride share,146.34,Transport
 2025-06-16,Transit card top-up,200.00,Transport
-2025-06-16,Ride share,45.00,Transport
-2025-06-17,Cafe,70.00,Dining Out
+2025-06-17,Pizza night,146.35,Dining Out
+2025-06-17,Ride share,95.53,Transport
 2025-06-18,Cloud storage,49.00,Subscriptions
-2025-06-18,Oxxo,496.57,Groceries
-2025-06-18,Oxxo,815.19,Groceries
-2025-06-20,Walmart,608.06,Groceries
-2025-06-20,Ride share,112.88,Transport
-2025-06-21,Soriana,390.77,Groceries
-2025-06-21,Taqueria,104.52,Dining Out
-2025-06-21,Lunch out,149.60,Dining Out
-2025-06-23,Soriana,584.75,Groceries
-2025-06-24,Oxxo,746.58,Groceries
-2025-06-24,Electronics accessory,120.00,Shopping
-2025-06-26,Pharmacy,253.24,Health
-2025-06-27,Cafe,212.95,Dining Out
-2025-07-01,Rent,6500.00,Housing
-2025-07-01,Starbucks,285.76,Dining Out
+2025-06-21,Concert ticket,83.66,Entertainment
+2025-06-22,Walmart,484.36,Groceries
+2025-06-25,Oxxo,578.22,Groceries
+2025-06-25,Lunch out,221.80,Dining Out
+2025-06-27,Oxxo,401.89,Groceries
+2025-07-01,Rent,6900.00,Housing
 2025-07-01,Transit card top-up,200.00,Transport
-2025-07-01,Streaming rental,378.18,Entertainment
 2025-07-02,Gym membership,450.00,Health
 2025-07-03,Netflix,219.00,Subscriptions
-2025-07-03,Online order,755.30,Shopping
-2025-07-03,Electronics accessory,791.68,Shopping
-2025-07-04,Pizza night,329.61,Dining Out
+2025-07-03,Ride share,82.96,Transport
+2025-07-03,Game purchase,310.49,Entertainment
+2025-07-04,Clothing,641.02,Shopping
+2025-07-04,Concert ticket,266.19,Entertainment
 2025-07-05,Internet,449.00,Utilities
-2025-07-05,Oxxo,869.96,Groceries
-2025-07-07,Cinema,273.06,Entertainment
+2025-07-05,Ride share,97.53,Transport
+2025-07-06,Cinema,206.67,Entertainment
+2025-07-07,Taqueria,190.11,Dining Out
 2025-07-08,Phone plan,299.00,Utilities
-2025-07-08,Walmart,460.06,Groceries
-2025-07-08,Electronics accessory,883.75,Shopping
-2025-07-09,Walmart,616.45,Groceries
-2025-07-10,Water bill,195.86,Utilities
-2025-07-11,Ride share,112.17,Transport
-2025-07-12,Spotify,129.00,Subscriptions
-2025-07-12,Cafe,419.49,Dining Out
-2025-07-13,Walmart,622.50,Groceries
-2025-07-13,Ride share,127.59,Transport
-2025-07-14,Cafe,168.81,Dining Out
-2025-07-15,Ride share,121.05,Transport
-2025-07-16,Pizza night,327.86,Dining Out
+2025-07-08,HEB,711.35,Groceries
+2025-07-09,Starbucks,207.48,Dining Out
+2025-07-10,Water bill,156.45,Utilities
+2025-07-12,Spotify,149.00,Subscriptions
+2025-07-12,Starbucks,70.00,Dining Out
+2025-07-14,Soriana,809.34,Groceries
+2025-07-15,HEB,521.33,Groceries
+2025-07-15,Ride share,111.54,Transport
 2025-07-16,Transit card top-up,200.00,Transport
+2025-07-17,Lunch out,236.00,Dining Out
 2025-07-18,Cloud storage,49.00,Subscriptions
-2025-07-21,Soriana,486.41,Groceries
-2025-07-21,Taqueria,97.35,Dining Out
-2025-07-23,Online course,299.00,Education
-2025-07-24,Cinema,423.08,Entertainment
-2025-07-25,Taqueria,70.00,Dining Out
-2025-07-26,Ride share,53.49,Transport
-2025-07-26,Pharmacy,169.42,Health
-2025-07-27,Oxxo,694.51,Groceries
-2025-07-28,Ride share,78.23,Transport
-2025-08-01,Rent,6500.00,Housing
+2025-07-18,Lunch out,104.52,Dining Out
+2025-07-19,Soriana,233.77,Groceries
+2025-07-19,Online course,299.00,Education
+2025-07-21,Taqueria,159.80,Dining Out
+2025-07-22,Cafe,295.29,Dining Out
+2025-07-24,Ride share,75.51,Transport
+2025-07-24,Clothing,855.88,Shopping
+2025-07-27,Taqueria,171.18,Dining Out
+2025-08-01,Rent,6900.00,Housing
 2025-08-01,Transit card top-up,200.00,Transport
+2025-08-01,Ride share,144.64,Transport
 2025-08-02,Gym membership,450.00,Health
-2025-08-02,Ride share,128.99,Transport
 2025-08-03,Netflix,219.00,Subscriptions
-2025-08-04,Oxxo,889.63,Groceries
-2025-08-04,Oxxo,628.42,Groceries
+2025-08-03,Soriana,524.28,Groceries
+2025-08-03,Ride share,121.57,Transport
+2025-08-04,Starbucks,250.35,Dining Out
 2025-08-05,Internet,449.00,Utilities
-2025-08-05,Clothing,458.00,Shopping
-2025-08-06,Home goods,272.10,Shopping
-2025-08-07,Ride share,45.00,Transport
+2025-08-05,Taqueria,263.06,Dining Out
+2025-08-05,Ride share,145.46,Transport
+2025-08-05,Streaming rental,371.63,Entertainment
+2025-08-06,Insurance premium,1200.00,Insurance
+2025-08-06,Lunch out,202.09,Dining Out
 2025-08-08,Phone plan,299.00,Utilities
-2025-08-08,Taqueria,282.32,Dining Out
-2025-08-10,Water bill,152.95,Utilities
-2025-08-12,Electricity bill,647.97,Utilities
-2025-08-12,Spotify,129.00,Subscriptions
-2025-08-13,Electronics accessory,871.16,Shopping
-2025-08-15,Ride share,68.38,Transport
+2025-08-09,Soriana,459.26,Groceries
+2025-08-10,Water bill,214.69,Utilities
+2025-08-10,Oxxo,1064.08,Groceries
+2025-08-10,Game purchase,193.18,Entertainment
+2025-08-10,Streaming rental,227.40,Entertainment
+2025-08-12,Electricity bill,1025.01,Utilities
+2025-08-12,Spotify,149.00,Subscriptions
+2025-08-13,Lunch out,216.81,Dining Out
+2025-08-14,Taqueria,358.27,Dining Out
+2025-08-14,Ride share,95.77,Transport
+2025-08-15,Pizza night,247.24,Dining Out
 2025-08-16,Transit card top-up,200.00,Transport
 2025-08-18,Cloud storage,49.00,Subscriptions
-2025-08-19,Soriana,587.33,Groceries
-2025-08-21,Pizza night,218.29,Dining Out
-2025-08-21,Lunch out,130.07,Dining Out
-2025-08-23,Oxxo,634.79,Groceries
-2025-08-24,Taqueria,156.50,Dining Out
-2025-08-25,Game purchase,354.29,Entertainment
-2025-08-28,Ride share,54.71,Transport
-2025-09-01,Rent,6500.00,Housing
+2025-08-21,Oxxo,766.47,Groceries
+2025-08-21,HEB,236.22,Groceries
+2025-08-23,Home goods,120.00,Shopping
+2025-08-24,Online order,853.15,Shopping
+2025-08-25,Language app,149.00,Subscriptions
+2025-08-26,Ride share,129.63,Transport
+2025-09-01,Rent,6900.00,Housing
 2025-09-01,Transit card top-up,200.00,Transport
 2025-09-02,Gym membership,450.00,Health
-2025-09-02,Pharmacy,239.90,Health
 2025-09-03,Netflix,219.00,Subscriptions
-2025-09-04,Soriana,665.26,Groceries
 2025-09-05,Internet,449.00,Utilities
-2025-09-05,Soriana,621.15,Groceries
-2025-09-05,Pizza night,123.41,Dining Out
-2025-09-07,Ride share,152.55,Transport
+2025-09-05,Pizza night,200.44,Dining Out
+2025-09-05,Ride share,139.42,Transport
+2025-09-05,Game purchase,318.18,Entertainment
+2025-09-06,Streaming rental,190.61,Entertainment
 2025-09-08,Phone plan,299.00,Utilities
-2025-09-08,Oxxo,886.77,Groceries
-2025-09-09,Starbucks,384.35,Dining Out
-2025-09-09,Cinema,172.27,Entertainment
-2025-09-10,Water bill,216.68,Utilities
-2025-09-10,Starbucks,173.36,Dining Out
-2025-09-12,Spotify,129.00,Subscriptions
-2025-09-12,Walmart,1079.22,Groceries
-2025-09-15,Electronics accessory,789.23,Shopping
-2025-09-15,Game purchase,183.08,Entertainment
+2025-09-08,Soriana,486.72,Groceries
+2025-09-09,Cafe,116.26,Dining Out
+2025-09-09,Ride share,97.90,Transport
+2025-09-10,Water bill,230.42,Utilities
+2025-09-12,Spotify,149.00,Subscriptions
+2025-09-12,HEB,657.61,Groceries
+2025-09-12,Pizza night,265.51,Dining Out
+2025-09-13,Cafe,172.89,Dining Out
+2025-09-15,Oxxo,625.86,Groceries
 2025-09-16,Transit card top-up,200.00,Transport
-2025-09-16,Ride share,117.41,Transport
-2025-09-17,Starbucks,168.72,Dining Out
+2025-09-17,Cafe,249.94,Dining Out
 2025-09-18,Cloud storage,49.00,Subscriptions
-2025-09-19,HEB,895.21,Groceries
-2025-09-19,Ride share,134.77,Transport
-2025-09-22,Pizza night,207.67,Dining Out
-2025-09-23,Ride share,64.32,Transport
-2025-09-23,Clothing,736.61,Shopping
-2025-09-24,Pizza night,70.00,Dining Out
-2025-09-26,Cinema,291.48,Entertainment
-2025-09-28,Cafe,135.00,Dining Out
-2025-10-01,Rent,6900.00,Housing
-2025-10-01,Oxxo,212.02,Groceries
+2025-09-19,Home goods,1048.22,Shopping
+2025-09-19,Pharmacy,237.05,Health
+2025-09-21,Electronics accessory,656.11,Shopping
+2025-09-21,Game purchase,423.56,Entertainment
+2025-09-22,HEB,349.76,Groceries
+2025-09-24,Ride share,53.83,Transport
+2025-09-24,Online course,249.00,Education
+2025-09-25,Language app,149.00,Subscriptions
+2025-09-27,Cafe,72.24,Dining Out
+2025-09-27,Clothing,1417.75,Shopping
+2025-09-28,Ride share,135.28,Transport
+2025-10-01,Rent,7300.00,Housing
 2025-10-01,Transit card top-up,200.00,Transport
+2025-10-01,Electronics accessory,488.83,Shopping
 2025-10-02,Gym membership,450.00,Health
 2025-10-03,Netflix,219.00,Subscriptions
-2025-10-03,Starbucks,249.14,Dining Out
-2025-10-03,Concert ticket,319.72,Entertainment
+2025-10-04,Cafe,265.77,Dining Out
 2025-10-05,Internet,449.00,Utilities
-2025-10-05,Walmart,491.71,Groceries
-2025-10-05,Starbucks,183.24,Dining Out
+2025-10-05,HEB,285.88,Groceries
+2025-10-05,Soriana,589.75,Groceries
+2025-10-05,Game purchase,401.61,Entertainment
+2025-10-06,Cafe,265.45,Dining Out
 2025-10-08,Phone plan,299.00,Utilities
-2025-10-09,Walmart,247.09,Groceries
-2025-10-10,Water bill,201.35,Utilities
-2025-10-12,Electricity bill,866.66,Utilities
-2025-10-12,Spotify,129.00,Subscriptions
-2025-10-12,Lunch out,251.86,Dining Out
-2025-10-12,Ride share,175.16,Transport
-2025-10-13,Game purchase,233.62,Entertainment
-2025-10-14,Starbucks,148.05,Dining Out
-2025-10-14,Pharmacy,147.44,Health
-2025-10-14,Online course,249.00,Education
-2025-10-15,Taqueria,161.09,Dining Out
+2025-10-09,Ride share,151.82,Transport
+2025-10-10,Water bill,180.63,Utilities
+2025-10-10,Streaming rental,446.08,Entertainment
+2025-10-10,Pharmacy,189.17,Health
+2025-10-12,Electricity bill,981.67,Utilities
+2025-10-12,Spotify,149.00,Subscriptions
+2025-10-15,Ride share,89.99,Transport
 2025-10-16,Transit card top-up,200.00,Transport
 2025-10-18,Cloud storage,49.00,Subscriptions
-2025-10-19,Cafe,241.02,Dining Out
-2025-10-24,Walmart,950.05,Groceries
-2025-10-24,Ride share,71.19,Transport
-2025-10-26,Cafe,202.25,Dining Out
-2025-10-28,Streaming rental,271.30,Entertainment
-2025-11-01,Rent,6900.00,Housing
+2025-10-18,Ride share,111.44,Transport
+2025-10-18,Ride share,157.51,Transport
+2025-10-19,Starbucks,238.44,Dining Out
+2025-10-20,Pizza night,177.20,Dining Out
+2025-10-22,Oxxo,425.37,Groceries
+2025-10-25,Language app,149.00,Subscriptions
+2025-10-25,Soriana,967.31,Groceries
+2025-10-27,Streaming rental,216.33,Entertainment
+2025-11-01,Rent,7300.00,Housing
+2025-11-01,Starbucks,113.52,Dining Out
 2025-11-01,Transit card top-up,200.00,Transport
-2025-11-01,Ride share,123.37,Transport
-2025-11-01,Pharmacy,196.92,Health
 2025-11-02,Gym membership,450.00,Health
 2025-11-03,Netflix,219.00,Subscriptions
-2025-11-04,Ride share,60.22,Transport
+2025-11-03,Oxxo,346.99,Groceries
+2025-11-04,Ride share,65.42,Transport
 2025-11-05,Internet,449.00,Utilities
-2025-11-07,HEB,468.23,Groceries
+2025-11-05,Streaming rental,497.85,Entertainment
+2025-11-06,Insurance premium,1200.00,Insurance
+2025-11-07,Starbucks,168.92,Dining Out
+2025-11-07,Ride share,102.12,Transport
 2025-11-08,Phone plan,299.00,Utilities
-2025-11-08,Cinema,202.06,Entertainment
-2025-11-10,Water bill,205.94,Utilities
-2025-11-10,Starbucks,236.68,Dining Out
-2025-11-11,Ride share,146.01,Transport
-2025-11-12,Spotify,129.00,Subscriptions
-2025-11-12,Ride share,112.05,Transport
-2025-11-13,Lunch out,142.18,Dining Out
-2025-11-14,Soriana,902.52,Groceries
-2025-11-14,Walmart,476.96,Groceries
+2025-11-09,Cafe,220.65,Dining Out
+2025-11-10,Water bill,203.56,Utilities
+2025-11-12,Spotify,149.00,Subscriptions
 2025-11-16,Transit card top-up,200.00,Transport
+2025-11-17,Pizza night,196.17,Dining Out
 2025-11-18,Cloud storage,49.00,Subscriptions
-2025-11-18,Oxxo,610.57,Groceries
-2025-11-20,Pizza night,202.16,Dining Out
-2025-11-21,Cafe,273.62,Dining Out
-2025-11-23,Cafe,228.30,Dining Out
-2025-11-24,Ride share,74.45,Transport
-2025-11-25,Starbucks,244.65,Dining Out
-2025-12-01,Rent,6900.00,Housing
+2025-11-20,HEB,682.97,Groceries
+2025-11-23,Ride share,167.81,Transport
+2025-11-25,Language app,149.00,Subscriptions
+2025-11-25,Starbucks,152.01,Dining Out
+2025-11-27,Oxxo,376.81,Groceries
+2025-11-28,Oxxo,674.12,Groceries
+2025-11-28,Concert ticket,163.07,Entertainment
+2025-12-01,Rent,7300.00,Housing
 2025-12-01,Transit card top-up,200.00,Transport
 2025-12-02,Gym membership,450.00,Health
-2025-12-02,Starbucks,171.88,Dining Out
-2025-12-02,Pharmacy,86.91,Health
-2025-12-03,Netflix,219.00,Subscriptions
-2025-12-03,Oxxo,1089.41,Groceries
+2025-12-02,Starbucks,256.77,Dining Out
+2025-12-03,Netflix,249.00,Subscriptions
+2025-12-03,Taqueria,254.51,Dining Out
 2025-12-05,Internet,449.00,Utilities
-2025-12-07,Streaming rental,80.00,Entertainment
+2025-12-05,Oxxo,518.86,Groceries
+2025-12-07,Oxxo,674.29,Groceries
+2025-12-07,HEB,342.42,Groceries
+2025-12-07,HEB,824.89,Groceries
 2025-12-08,Phone plan,299.00,Utilities
-2025-12-08,Streaming rental,414.44,Entertainment
-2025-12-10,Water bill,167.51,Utilities
-2025-12-12,Electricity bill,460.25,Utilities
+2025-12-09,Pharmacy,91.02,Health
+2025-12-10,Water bill,196.09,Utilities
+2025-12-10,Ride share,138.03,Transport
+2025-12-10,Ride share,99.13,Transport
+2025-12-12,Electricity bill,441.83,Utilities
 2025-12-12,Spotify,149.00,Subscriptions
-2025-12-12,Ride share,86.90,Transport
-2025-12-14,Lunch out,283.13,Dining Out
-2025-12-14,Lunch out,70.00,Dining Out
-2025-12-15,Oxxo,395.60,Groceries
+2025-12-12,Ride share,169.50,Transport
+2025-12-13,Starbucks,265.27,Dining Out
+2025-12-15,Online course,249.00,Education
 2025-12-16,Transit card top-up,200.00,Transport
 2025-12-18,Cloud storage,49.00,Subscriptions
-2025-12-18,Walmart,414.13,Groceries
-2025-12-19,Lunch out,355.00,Dining Out
-2025-12-19,Ride share,84.90,Transport
-2025-12-21,Lunch out,70.00,Dining Out
-2025-12-22,Holiday gifts,1088.13,Shopping
-2025-12-23,Oxxo,924.55,Groceries
-2025-12-23,Soriana,465.76,Groceries
-2025-12-28,Walmart,729.96,Groceries
-2025-12-28,Taqueria,232.41,Dining Out
-2026-01-01,Rent,6900.00,Housing
+2025-12-19,Cafe,150.96,Dining Out
+2025-12-20,Walmart,793.71,Groceries
+2025-12-20,Ride share,78.22,Transport
+2025-12-22,Holiday gifts,1425.09,Shopping
+2025-12-24,Ride share,162.14,Transport
+2025-12-25,Language app,149.00,Subscriptions
+2025-12-25,Game purchase,470.05,Entertainment
+2025-12-26,Cinema,315.30,Entertainment
+2025-12-28,Taqueria,203.96,Dining Out
+2025-12-28,Taqueria,321.78,Dining Out
+2026-01-01,Rent,7300.00,Housing
 2026-01-01,Transit card top-up,200.00,Transport
-2026-01-01,Game purchase,169.64,Entertainment
 2026-01-02,Gym membership,450.00,Health
-2026-01-02,Cinema,388.09,Entertainment
-2026-01-03,Netflix,219.00,Subscriptions
-2026-01-03,Cafe,257.21,Dining Out
-2026-01-04,Ride share,45.00,Transport
+2026-01-02,Cinema,444.40,Entertainment
+2026-01-03,Netflix,249.00,Subscriptions
 2026-01-05,Internet,449.00,Utilities
-2026-01-07,Soriana,657.06,Groceries
-2026-01-07,Starbucks,70.00,Dining Out
+2026-01-05,HEB,596.34,Groceries
+2026-01-05,Cinema,454.53,Entertainment
+2026-01-06,Starbucks,210.34,Dining Out
+2026-01-07,Ride share,110.58,Transport
 2026-01-08,Phone plan,299.00,Utilities
-2026-01-09,Lunch out,70.00,Dining Out
-2026-01-10,Water bill,169.84,Utilities
-2026-01-10,Pizza night,439.44,Dining Out
+2026-01-10,Water bill,185.40,Utilities
 2026-01-12,Spotify,149.00,Subscriptions
-2026-01-12,Walmart,703.16,Groceries
-2026-01-12,Pizza night,184.24,Dining Out
-2026-01-12,Ride share,104.32,Transport
-2026-01-14,Ride share,183.91,Transport
-2026-01-14,Flight tickets,6200.00,Travel
-2026-01-15,Walmart,532.64,Groceries
+2026-01-12,Taqueria,325.96,Dining Out
+2026-01-12,Ride share,88.27,Transport
+2026-01-12,Pharmacy,129.47,Health
+2026-01-16,Walmart,499.11,Groceries
 2026-01-16,Transit card top-up,200.00,Transport
-2026-01-17,Ride share,116.58,Transport
+2026-01-17,Starbucks,213.35,Dining Out
 2026-01-18,Cloud storage,49.00,Subscriptions
-2026-01-20,Soriana,949.78,Groceries
-2026-01-21,Pizza night,272.93,Dining Out
-2026-01-25,Pizza night,109.80,Dining Out
-2026-01-26,Oxxo,969.26,Groceries
-2026-01-26,Ride share,103.03,Transport
-2026-01-27,Oxxo,513.67,Groceries
-2026-01-28,Pizza night,225.48,Dining Out
-2026-02-01,Rent,6900.00,Housing
-2026-02-01,Walmart,360.30,Groceries
+2026-01-19,HEB,1039.70,Groceries
+2026-01-21,Pizza night,70.00,Dining Out
+2026-01-25,Language app,149.00,Subscriptions
+2026-01-25,Soriana,453.27,Groceries
+2026-01-27,Ride share,128.92,Transport
+2026-02-01,Rent,7300.00,Housing
+2026-02-01,HEB,460.61,Groceries
 2026-02-01,Transit card top-up,200.00,Transport
 2026-02-02,Gym membership,450.00,Health
-2026-02-02,Game purchase,162.73,Entertainment
-2026-02-03,Netflix,219.00,Subscriptions
-2026-02-03,Ride share,93.01,Transport
+2026-02-02,Ride share,54.94,Transport
+2026-02-02,Concert ticket,590.07,Entertainment
+2026-02-03,Netflix,249.00,Subscriptions
 2026-02-05,Internet,449.00,Utilities
-2026-02-06,Ride share,141.63,Transport
-2026-02-07,Walmart,709.92,Groceries
+2026-02-05,Ride share,144.19,Transport
+2026-02-06,Insurance premium,1200.00,Insurance
 2026-02-08,Phone plan,299.00,Utilities
-2026-02-09,HEB,180.00,Groceries
-2026-02-09,HEB,726.86,Groceries
-2026-02-09,Ride share,91.65,Transport
-2026-02-09,Home goods,120.00,Shopping
-2026-02-10,Water bill,189.56,Utilities
-2026-02-10,HEB,274.76,Groceries
-2026-02-12,Electricity bill,401.27,Utilities
+2026-02-08,Cafe,120.19,Dining Out
+2026-02-08,Ride share,126.70,Transport
+2026-02-09,Ride share,77.99,Transport
+2026-02-10,Water bill,226.82,Utilities
+2026-02-11,Walmart,1046.38,Groceries
+2026-02-12,Electricity bill,317.65,Utilities
 2026-02-12,Spotify,149.00,Subscriptions
-2026-02-14,Lunch out,322.66,Dining Out
-2026-02-16,Oxxo,756.05,Groceries
-2026-02-16,Taqueria,244.89,Dining Out
+2026-02-13,Oxxo,570.01,Groceries
+2026-02-14,Streaming rental,261.50,Entertainment
+2026-02-16,Starbucks,223.38,Dining Out
 2026-02-16,Transit card top-up,200.00,Transport
+2026-02-17,Lunch out,70.00,Dining Out
+2026-02-17,Concert ticket,115.80,Entertainment
 2026-02-18,Cloud storage,49.00,Subscriptions
-2026-02-19,Pizza night,170.81,Dining Out
-2026-02-22,Pizza night,283.51,Dining Out
-2026-02-25,Starbucks,244.66,Dining Out
-2026-02-27,Electronics accessory,1080.82,Shopping
-2026-02-27,Clothing,369.32,Shopping
-2026-03-01,Rent,6900.00,Housing
+2026-02-18,Soriana,570.08,Groceries
+2026-02-22,Starbucks,70.00,Dining Out
+2026-02-22,Home goods,945.19,Shopping
+2026-02-24,Ride share,109.57,Transport
+2026-02-24,Electronics accessory,1312.71,Shopping
+2026-02-25,Language app,149.00,Subscriptions
+2026-02-25,Online course,249.00,Education
+2026-02-27,Soriana,318.39,Groceries
+2026-03-01,Rent,7300.00,Housing
 2026-03-01,Transit card top-up,200.00,Transport
-2026-03-01,Cinema,416.67,Entertainment
-2026-03-01,Streaming rental,80.00,Entertainment
 2026-03-02,Gym membership,450.00,Health
-2026-03-03,Netflix,219.00,Subscriptions
+2026-03-02,Pizza night,257.16,Dining Out
+2026-03-03,Netflix,249.00,Subscriptions
+2026-03-03,Cafe,85.98,Dining Out
+2026-03-03,Ride share,132.65,Transport
+2026-03-04,Taqueria,70.00,Dining Out
+2026-03-04,Pizza night,329.25,Dining Out
 2026-03-05,Internet,449.00,Utilities
-2026-03-05,Soriana,603.65,Groceries
-2026-03-05,Ride share,102.49,Transport
-2026-03-06,Ride share,131.95,Transport
-2026-03-07,HEB,647.00,Groceries
-2026-03-07,Starbucks,235.43,Dining Out
+2026-03-05,Home goods,250.89,Shopping
 2026-03-08,Phone plan,299.00,Utilities
-2026-03-08,Soriana,306.03,Groceries
-2026-03-09,HEB,422.28,Groceries
-2026-03-10,Water bill,188.58,Utilities
-2026-03-10,Starbucks,70.00,Dining Out
+2026-03-10,Water bill,200.51,Utilities
+2026-03-10,Oxxo,456.51,Groceries
+2026-03-10,Ride share,86.93,Transport
 2026-03-12,Spotify,149.00,Subscriptions
-2026-03-13,Pizza night,178.41,Dining Out
-2026-03-13,Ride share,127.91,Transport
-2026-03-14,Lunch out,126.94,Dining Out
+2026-03-14,Clothing,734.60,Shopping
+2026-03-14,Phone replacement,9800.00,Shopping
+2026-03-15,HEB,715.45,Groceries
+2026-03-15,Cafe,280.43,Dining Out
 2026-03-16,Transit card top-up,200.00,Transport
 2026-03-18,Cloud storage,49.00,Subscriptions
-2026-03-18,Game purchase,450.26,Entertainment
-2026-03-24,Pizza night,201.34,Dining Out
-2026-03-26,Soriana,449.67,Groceries
-2026-03-27,Starbucks,107.39,Dining Out
-2026-03-28,Walmart,601.26,Groceries
-2026-04-01,Rent,6900.00,Housing
+2026-03-19,Soriana,501.67,Groceries
+2026-03-19,Game purchase,392.73,Entertainment
+2026-03-22,Lunch out,326.15,Dining Out
+2026-03-23,Concert ticket,303.99,Entertainment
+2026-03-25,Language app,149.00,Subscriptions
+2026-03-25,Lunch out,145.78,Dining Out
+2026-03-27,HEB,542.40,Groceries
+2026-03-28,Concert ticket,491.55,Entertainment
+2026-04-01,Rent,7300.00,Housing
 2026-04-01,Transit card top-up,200.00,Transport
-2026-04-01,Online course,299.00,Education
 2026-04-02,Gym membership,450.00,Health
-2026-04-03,Netflix,219.00,Subscriptions
-2026-04-03,Walmart,447.41,Groceries
-2026-04-03,Lunch out,240.67,Dining Out
-2026-04-04,Ride share,164.03,Transport
-2026-04-04,Online order,781.12,Shopping
+2026-04-03,Netflix,249.00,Subscriptions
+2026-04-03,Ride share,171.48,Transport
+2026-04-03,Game purchase,479.04,Entertainment
 2026-04-05,Internet,449.00,Utilities
-2026-04-05,Ride share,58.81,Transport
-2026-04-07,Oxxo,426.69,Groceries
 2026-04-08,Phone plan,299.00,Utilities
-2026-04-09,Taqueria,267.57,Dining Out
-2026-04-10,Water bill,192.48,Utilities
-2026-04-10,Cafe,217.53,Dining Out
-2026-04-12,Electricity bill,1000.53,Utilities
+2026-04-09,HEB,820.39,Groceries
+2026-04-10,Water bill,191.70,Utilities
+2026-04-10,Oxxo,862.81,Groceries
+2026-04-12,Electricity bill,855.49,Utilities
 2026-04-12,Spotify,149.00,Subscriptions
-2026-04-12,Pizza night,276.60,Dining Out
-2026-04-13,Walmart,568.22,Groceries
-2026-04-15,Home goods,178.94,Shopping
+2026-04-15,Starbucks,166.60,Dining Out
+2026-04-15,Taqueria,218.77,Dining Out
+2026-04-15,Ride share,136.48,Transport
+2026-04-16,Oxxo,474.68,Groceries
 2026-04-16,Transit card top-up,200.00,Transport
-2026-04-17,Taqueria,322.47,Dining Out
+2026-04-17,Home goods,709.34,Shopping
 2026-04-18,Cloud storage,49.00,Subscriptions
-2026-04-20,Ride share,164.37,Transport
-2026-04-20,Electronics accessory,858.80,Shopping
-2026-04-24,Ride share,179.16,Transport
-2026-04-26,Cinema,569.63,Entertainment
-2026-04-28,Soriana,652.52,Groceries
-2026-04-28,Oxxo,1042.74,Groceries
-2026-05-01,Rent,6900.00,Housing
-2026-05-01,Pizza night,232.76,Dining Out
+2026-04-19,HEB,490.41,Groceries
+2026-04-19,Ride share,167.97,Transport
+2026-04-22,Starbucks,199.61,Dining Out
+2026-04-24,Ride share,136.01,Transport
+2026-04-24,Ride share,124.92,Transport
+2026-04-25,Language app,149.00,Subscriptions
+2026-04-25,Cafe,169.76,Dining Out
+2026-04-27,Oxxo,612.26,Groceries
+2026-04-27,Cinema,354.55,Entertainment
+2026-05-01,Rent,7300.00,Housing
 2026-05-01,Transit card top-up,200.00,Transport
 2026-05-02,Gym membership,450.00,Health
-2026-05-02,Walmart,374.93,Groceries
-2026-05-03,Netflix,219.00,Subscriptions
+2026-05-02,Streaming rental,384.82,Entertainment
+2026-05-03,Netflix,249.00,Subscriptions
+2026-05-03,Pizza night,150.47,Dining Out
+2026-05-04,Online order,1021.83,Shopping
 2026-05-05,Internet,449.00,Utilities
-2026-05-06,Cafe,241.01,Dining Out
-2026-05-06,Pharmacy,60.00,Health
+2026-05-05,Walmart,563.19,Groceries
+2026-05-06,Insurance premium,1200.00,Insurance
+2026-05-07,Pizza night,286.09,Dining Out
 2026-05-08,Phone plan,299.00,Utilities
-2026-05-09,Soriana,736.08,Groceries
-2026-05-10,Water bill,184.93,Utilities
+2026-05-08,Online course,399.00,Education
+2026-05-10,Water bill,191.51,Utilities
+2026-05-11,Ride share,140.15,Transport
 2026-05-12,Spotify,149.00,Subscriptions
-2026-05-12,Cafe,153.47,Dining Out
-2026-05-14,Ride share,64.42,Transport
-2026-05-14,Dental emergency,3500.00,Health
+2026-05-16,Oxxo,687.34,Groceries
 2026-05-16,Transit card top-up,200.00,Transport
-2026-05-17,Soriana,883.03,Groceries
 2026-05-18,Cloud storage,49.00,Subscriptions
-2026-05-18,Soriana,616.77,Groceries
-2026-05-20,Cinema,125.69,Entertainment
-2026-05-21,Pizza night,181.28,Dining Out
-2026-05-22,Pizza night,325.86,Dining Out
-2026-05-22,Cafe,198.10,Dining Out
-2026-05-22,Ride share,93.92,Transport
-2026-05-24,Oxxo,623.01,Groceries
-2026-05-25,Oxxo,658.56,Groceries
-2026-05-25,Ride share,119.76,Transport
-2026-05-26,Lunch out,191.81,Dining Out
-2026-06-01,Rent,6900.00,Housing
-2026-06-01,Oxxo,1054.23,Groceries
+2026-05-18,Ride share,70.14,Transport
+2026-05-23,Walmart,358.19,Groceries
+2026-05-23,Ride share,99.96,Transport
+2026-05-24,Lunch out,123.12,Dining Out
+2026-05-25,Language app,149.00,Subscriptions
+2026-05-25,Oxxo,1090.77,Groceries
+2026-05-27,Taqueria,70.00,Dining Out
+2026-05-27,Ride share,96.10,Transport
+2026-05-28,Ride share,159.32,Transport
+2026-06-01,Rent,7300.00,Housing
 2026-06-01,Transit card top-up,200.00,Transport
 2026-06-02,Gym membership,450.00,Health
-2026-06-02,Cinema,399.99,Entertainment
-2026-06-03,Netflix,219.00,Subscriptions
+2026-06-03,Netflix,249.00,Subscriptions
 2026-06-05,Internet,449.00,Utilities
+2026-06-06,Walmart,236.84,Groceries
+2026-06-06,Ride share,68.70,Transport
+2026-06-07,Oxxo,622.76,Groceries
+2026-06-07,Lunch out,377.35,Dining Out
+2026-06-07,Lunch out,269.21,Dining Out
 2026-06-08,Phone plan,299.00,Utilities
-2026-06-09,Cafe,496.10,Dining Out
-2026-06-10,Water bill,220.35,Utilities
-2026-06-10,Cinema,363.74,Entertainment
-2026-06-11,Lunch out,367.83,Dining Out
-2026-06-11,Clothing,811.43,Shopping
-2026-06-12,Electricity bill,611.33,Utilities
+2026-06-09,Domain renewal,349.00,Subscriptions
+2026-06-09,Streaming rental,106.22,Entertainment
+2026-06-10,Water bill,219.76,Utilities
+2026-06-11,Ride share,127.11,Transport
+2026-06-12,Electricity bill,817.87,Utilities
 2026-06-12,Spotify,149.00,Subscriptions
-2026-06-13,Soriana,1069.11,Groceries
-2026-06-15,Ride share,146.34,Transport
+2026-06-13,Walmart,714.45,Groceries
+2026-06-13,Ride share,127.56,Transport
+2026-06-15,Taqueria,234.31,Dining Out
+2026-06-15,Ride share,202.39,Transport
+2026-06-15,Concert ticket,262.07,Entertainment
 2026-06-16,Transit card top-up,200.00,Transport
-2026-06-17,Pizza night,146.35,Dining Out
-2026-06-17,Ride share,95.53,Transport
 2026-06-18,Cloud storage,49.00,Subscriptions
-2026-06-21,Concert ticket,83.66,Entertainment
-2026-06-22,Walmart,484.36,Groceries
-2026-06-25,Oxxo,578.22,Groceries
-2026-06-25,Lunch out,221.80,Dining Out
-2026-06-27,Oxxo,401.89,Groceries
-2026-07-01,Rent,6900.00,Housing
+2026-06-18,Oxxo,700.33,Groceries
+2026-06-19,Walmart,645.11,Groceries
+2026-06-19,Ride share,80.71,Transport
+2026-06-25,Language app,149.00,Subscriptions
+2026-06-27,Pharmacy,244.97,Health
+2026-06-28,Taqueria,190.76,Dining Out
+2026-07-01,Rent,7300.00,Housing
 2026-07-01,Transit card top-up,200.00,Transport
 2026-07-02,Gym membership,450.00,Health
-2026-07-03,Netflix,219.00,Subscriptions
-2026-07-03,Ride share,82.96,Transport
-2026-07-03,Game purchase,310.49,Entertainment
-2026-07-04,Clothing,641.02,Shopping
-2026-07-04,Concert ticket,266.19,Entertainment
+2026-07-03,Netflix,249.00,Subscriptions
+2026-07-03,Streaming rental,369.33,Entertainment
+2026-07-04,Soriana,316.75,Groceries
 2026-07-05,Internet,449.00,Utilities
-2026-07-05,Ride share,97.53,Transport
-2026-07-06,Cinema,206.67,Entertainment
-2026-07-07,Taqueria,190.11,Dining Out
+2026-07-06,HEB,924.04,Groceries
+2026-07-06,Concert ticket,521.61,Entertainment
+2026-07-06,Pharmacy,163.58,Health
 2026-07-08,Phone plan,299.00,Utilities
-2026-07-08,HEB,711.35,Groceries
-2026-07-09,Starbucks,207.48,Dining Out
-2026-07-10,Water bill,156.45,Utilities
+2026-07-09,Soriana,566.47,Groceries
+2026-07-10,Water bill,177.32,Utilities
+2026-07-11,Lunch out,70.00,Dining Out
+2026-07-11,Ride share,159.95,Transport
 2026-07-12,Spotify,149.00,Subscriptions
-2026-07-12,Starbucks,70.00,Dining Out
-2026-07-14,Soriana,809.34,Groceries
-2026-07-15,HEB,521.33,Groceries
-2026-07-15,Ride share,111.54,Transport
+2026-07-14,Cafe,181.43,Dining Out
+2026-07-15,HEB,402.06,Groceries
+2026-07-16,Starbucks,236.21,Dining Out
 2026-07-16,Transit card top-up,200.00,Transport
-2026-07-17,Lunch out,236.00,Dining Out
 2026-07-18,Cloud storage,49.00,Subscriptions
-2026-07-18,Lunch out,104.52,Dining Out
-2026-07-19,Soriana,233.77,Groceries
-2026-07-19,Online course,299.00,Education
-2026-07-21,Taqueria,159.80,Dining Out
-2026-07-22,Cafe,295.29,Dining Out
-2026-07-24,Ride share,75.51,Transport
-2026-07-24,Clothing,855.88,Shopping
-2026-07-27,Taqueria,171.18,Dining Out
-2026-08-01,Rent,6900.00,Housing
+2026-07-20,Walmart,566.88,Groceries
+2026-07-21,Ride share,123.46,Transport
+2026-07-23,Lunch out,260.05,Dining Out
+2026-07-25,Language app,149.00,Subscriptions
+2026-07-25,Cinema,579.35,Entertainment
+2026-07-27,Starbucks,207.81,Dining Out
+2026-07-28,HEB,268.69,Groceries
+2026-07-28,Taqueria,246.44,Dining Out
+2026-07-28,Starbucks,320.34,Dining Out
+2026-08-01,Rent,7300.00,Housing
 2026-08-01,Transit card top-up,200.00,Transport
-2026-08-01,Ride share,144.64,Transport
 2026-08-02,Gym membership,450.00,Health
-2026-08-03,Netflix,219.00,Subscriptions
-2026-08-03,Soriana,524.28,Groceries
-2026-08-03,Ride share,121.57,Transport
-2026-08-04,Starbucks,250.35,Dining Out
+2026-08-02,Online course,399.00,Education
+2026-08-03,Netflix,249.00,Subscriptions
+2026-08-03,Taqueria,410.63,Dining Out
+2026-08-04,Ride share,119.48,Transport
 2026-08-05,Internet,449.00,Utilities
-2026-08-05,Taqueria,263.06,Dining Out
-2026-08-05,Ride share,145.46,Transport
-2026-08-05,Streaming rental,371.63,Entertainment
-2026-08-06,Lunch out,202.09,Dining Out
+2026-08-05,Soriana,706.30,Groceries
+2026-08-05,Ride share,72.84,Transport
+2026-08-06,Insurance premium,1200.00,Insurance
+2026-08-07,Ride share,136.19,Transport
 2026-08-08,Phone plan,299.00,Utilities
-2026-08-09,Soriana,459.26,Groceries
-2026-08-10,Water bill,214.69,Utilities
-2026-08-10,Oxxo,1064.08,Groceries
-2026-08-10,Game purchase,193.18,Entertainment
-2026-08-10,Streaming rental,227.40,Entertainment
-2026-08-12,Electricity bill,1025.01,Utilities
+2026-08-08,Walmart,648.07,Groceries
+2026-08-09,Cafe,226.32,Dining Out
+2026-08-10,Water bill,219.56,Utilities
+2026-08-11,Lunch out,190.45,Dining Out
+2026-08-12,Electricity bill,865.01,Utilities
 2026-08-12,Spotify,149.00,Subscriptions
-2026-08-13,Lunch out,216.81,Dining Out
-2026-08-14,Taqueria,358.27,Dining Out
-2026-08-14,Ride share,95.77,Transport
-2026-08-15,Pizza night,247.24,Dining Out
+2026-08-13,Pizza night,297.40,Dining Out
+2026-08-13,Streaming rental,80.00,Entertainment
+2026-08-14,Cinema,468.13,Entertainment
+2026-08-16,Taqueria,245.15,Dining Out
 2026-08-16,Transit card top-up,200.00,Transport
 2026-08-18,Cloud storage,49.00,Subscriptions
-2026-08-21,Oxxo,766.47,Groceries
-2026-08-21,HEB,236.22,Groceries
-2026-08-23,Home goods,120.00,Shopping
-2026-08-24,Online order,853.15,Shopping
-2026-08-26,Ride share,129.63,Transport
-2026-09-01,Rent,6900.00,Housing
+2026-08-19,Taqueria,284.20,Dining Out
+2026-08-23,Walmart,557.85,Groceries
+2026-08-24,Ride share,45.00,Transport
+2026-08-25,Language app,149.00,Subscriptions
+2026-08-25,Soriana,305.06,Groceries
+2026-08-26,Ride share,99.16,Transport
+2026-08-27,Soriana,522.26,Groceries
+2026-08-27,Cafe,333.11,Dining Out
+2026-08-28,Pharmacy,60.00,Health
+2026-09-01,Rent,7300.00,Housing
 2026-09-01,Transit card top-up,200.00,Transport
 2026-09-02,Gym membership,450.00,Health
-2026-09-03,Netflix,219.00,Subscriptions
+2026-09-02,Walmart,762.18,Groceries
+2026-09-03,Netflix,249.00,Subscriptions
+2026-09-04,Taqueria,192.83,Dining Out
 2026-09-05,Internet,449.00,Utilities
-2026-09-05,Pizza night,200.44,Dining Out
-2026-09-05,Ride share,139.42,Transport
-2026-09-05,Game purchase,318.18,Entertainment
-2026-09-06,Streaming rental,190.61,Entertainment
+2026-09-05,Ride share,128.00,Transport
+2026-09-05,Streaming rental,326.81,Entertainment
+2026-09-06,Electronics accessory,831.98,Shopping
 2026-09-08,Phone plan,299.00,Utilities
-2026-09-08,Soriana,486.72,Groceries
-2026-09-09,Cafe,116.26,Dining Out
-2026-09-09,Ride share,97.90,Transport
-2026-09-10,Water bill,230.42,Utilities
+2026-09-08,Ride share,51.71,Transport
+2026-09-10,Water bill,227.91,Utilities
+2026-09-10,HEB,728.61,Groceries
+2026-09-11,Pizza night,94.22,Dining Out
+2026-09-11,Cafe,208.79,Dining Out
+2026-09-11,Streaming rental,94.05,Entertainment
+2026-09-11,Pharmacy,123.97,Health
 2026-09-12,Spotify,149.00,Subscriptions
-2026-09-12,HEB,657.61,Groceries
-2026-09-12,Pizza night,265.51,Dining Out
-2026-09-13,Cafe,172.89,Dining Out
-2026-09-15,Oxxo,625.86,Groceries
+2026-09-12,Oxxo,624.87,Groceries
+2026-09-14,Pizza night,81.56,Dining Out
 2026-09-16,Transit card top-up,200.00,Transport
-2026-09-17,Cafe,249.94,Dining Out
+2026-09-17,Lunch out,298.97,Dining Out
+2026-09-17,Pizza night,219.85,Dining Out
 2026-09-18,Cloud storage,49.00,Subscriptions
-2026-09-19,Home goods,1048.22,Shopping
-2026-09-19,Pharmacy,237.05,Health
-2026-09-21,Electronics accessory,656.11,Shopping
-2026-09-21,Game purchase,423.56,Entertainment
-2026-09-22,HEB,349.76,Groceries
-2026-09-24,Ride share,53.83,Transport
-2026-09-24,Online course,249.00,Education
-2026-09-27,Cafe,72.24,Dining Out
-2026-09-27,Clothing,1417.75,Shopping
-2026-09-28,Ride share,135.28,Transport
+2026-09-19,Walmart,563.05,Groceries
+2026-09-20,Cinema,178.58,Entertainment
+2026-09-21,Ride share,193.84,Transport
+2026-09-23,Ride share,178.23,Transport
+2026-09-24,Soriana,669.96,Groceries
+2026-09-25,Language app,149.00,Subscriptions
+2026-09-26,HEB,519.49,Groceries
+2026-09-27,Cafe,133.16,Dining Out
