@@ -3,30 +3,34 @@
 Run `python -m spendlens.sample_data --force` to regenerate the CSVs in data/.
 
 Income and expenses are in MXN. Investment buy prices are in USD and are
-synthetic (random walks from rough 2024 price levels), not real market history.
+synthetic (random walks from rough October 2023 price levels), not real
+market history.
 
-Patterns are injected on purpose so the analysis has something real to find:
-  - a salary raise after month 12
-  - a December aguinaldo (Mexican year-end bonus)
-  - an annual rent increase after month 12
-  - a Spotify price increase at month 15
-  - a duplicate Netflix charge in month 8
-  - three one-off expenses: laptop repair (month 9), flights (month 16),
-    dental emergency (month 20)
+Patterns are planted on purpose so the analysis has something real to find
+(offsets are months from the start, 0-based):
+  - payroll raises after months 12 and 24, and a December aguinaldo each year
+  - rent increases after months 12 and 24
+  - a Spotify price increase (month 14) and a Netflix price increase (month 26)
+  - a duplicate Netflix charge (month 7)
+  - subscriptions that start and stop: Disney+ (months 5 to 17), a language app (from month 22)
+  - quarterly insurance and a yearly domain renewal
+  - one-off expenses: laptop repair (8), flights (15), dental emergency (19), phone replacement (29)
   - seasonal electricity bills (higher April to October)
+  - budgets whose Housing line follows the rent increases, and no budget for Travel
 """
 from __future__ import annotations
 
 import argparse
 from pathlib import Path
+from typing import NamedTuple
 
 import numpy as np
 import pandas as pd
 
 from spendlens.data import REPO_ROOT, SCHEMAS
 
-DEFAULT_START = "2024-10"
-DEFAULT_MONTHS = 24
+DEFAULT_START = "2023-10"
+DEFAULT_MONTHS = 36
 DEFAULT_SEED = 42
 
 GROCERY_STORES = ["Soriana", "HEB", "Walmart", "Oxxo"]
@@ -35,15 +39,41 @@ SHOPPING = ["Online order", "Clothing", "Electronics accessory", "Home goods"]
 ENTERTAINMENT = ["Cinema", "Concert ticket", "Game purchase", "Streaming rental"]
 COURSE_PRICES = [249.0, 299.0, 399.0]
 
-# month offset (0-based) -> (description, amount, category)
+PAYROLL_BY_YEAR = (9_500.0, 11_500.0, 12_500.0)  # per payday; paid twice a month
+RENT_BY_YEAR = (6_500.0, 6_900.0, 7_300.0)
+
+# month offset -> (description, amount, category)
 ONE_OFFS = {
     8: ("Laptop repair", 4800.0, "Shopping"),
     15: ("Flight tickets", 6200.0, "Travel"),
     19: ("Dental emergency", 3500.0, "Health"),
+    29: ("Phone replacement", 9800.0, "Shopping"),
+}
+ONE_OFF_DAY = 14
+
+# category -> monthly budget in MXN. Housing is added separately because it changes.
+BUDGETS = {
+    "Utilities": 1_400.0,
+    "Groceries": 3_300.0,
+    "Dining Out": 1_300.0,
+    "Transport": 900.0,
+    "Subscriptions": 500.0,
+    "Health": 600.0,
+    "Entertainment": 600.0,
+    "Shopping": 1_000.0,
+    "Education": 150.0,
+    "Insurance": 400.0,
 }
 
-START_PRICES = {"VOO": 505.0, "QQQ": 480.0, "MSFT": 420.0, "AAPL": 230.0, "GOOGL": 170.0}
+START_PRICES = {"VOO": 380.0, "QQQ": 355.0, "MSFT": 330.0, "AAPL": 175.0, "GOOGL": 138.0}
 OTHER_TICKERS = ["QQQ", "MSFT", "AAPL", "GOOGL"]
+
+
+class SampleData(NamedTuple):
+    income: pd.DataFrame
+    expenses: pd.DataFrame
+    investments: pd.DataFrame
+    budgets: pd.DataFrame
 
 
 def _date(month: pd.Period, day: int) -> pd.Timestamp:
@@ -55,12 +85,24 @@ def _money(value: float) -> float:
     return round(float(value), 2)
 
 
+def _by_year(values: tuple[float, ...], month_offset: int) -> float:
+    return values[min(month_offset // 12, len(values) - 1)]
+
+
+def injected_anomalies(
+    start: str = DEFAULT_START, months: int = DEFAULT_MONTHS
+) -> list[tuple[pd.Timestamp, str]]:
+    """(date, description) of every planted one-off expense, for testing the detector."""
+    periods = pd.period_range(start=start, periods=months, freq="M")
+    return [(_date(periods[i], ONE_OFF_DAY), ONE_OFFS[i][0]) for i in sorted(ONE_OFFS) if i < months]
+
+
 def generate(
     seed: int = DEFAULT_SEED,
     start: str = DEFAULT_START,
     months: int = DEFAULT_MONTHS,
-) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    """Return (income, expenses, investments) DataFrames matching data.SCHEMAS."""
+) -> SampleData:
+    """Return income, expenses, investments and budgets matching data.SCHEMAS."""
     rng = np.random.default_rng(seed)
     periods = pd.period_range(start=start, periods=months, freq="M")
     income_rows: list[tuple] = []
@@ -77,7 +119,7 @@ def generate(
 
     for i, month in enumerate(periods):
         # --- income: payroll twice a month, occasional freelance, December bonus
-        payroll = 9_500.0 if i < 12 else 11_500.0
+        payroll = _by_year(PAYROLL_BY_YEAR, i)
         income_rows.append((_date(month, 15), "Employer payroll", payroll, "Salary"))
         income_rows.append((_date(month, 31), "Employer payroll", payroll, "Salary"))
         if month.month == 12:
@@ -89,7 +131,7 @@ def generate(
             )
 
         # --- fixed monthly costs
-        spend(month, 1, "Rent", 6_500.0 if i < 12 else 6_900.0, "Housing")
+        spend(month, 1, "Rent", _by_year(RENT_BY_YEAR, i), "Housing")
         spend(month, 5, "Internet", 449.0, "Utilities")
         spend(month, 8, "Phone plan", 299.0, "Utilities")
         spend(month, 10, "Water bill", rng.normal(190, 25), "Utilities")
@@ -97,12 +139,20 @@ def generate(
             base = 900.0 if month.month in (4, 6, 8, 10) else 450.0
             spend(month, 12, "Electricity bill", rng.normal(base, base * 0.12), "Utilities")
 
-        # --- subscriptions and gym
-        spend(month, 3, "Netflix", 219.0, "Subscriptions")
+        # --- subscriptions: some start, some stop, some change price
+        spend(month, 3, "Netflix", 219.0 if i < 26 else 249.0, "Subscriptions")
         if i == 7:
             spend(month, 4, "Netflix", 219.0, "Subscriptions")  # duplicate charge
         spend(month, 12, "Spotify", 129.0 if i < 14 else 149.0, "Subscriptions")
         spend(month, 18, "Cloud storage", 49.0, "Subscriptions")
+        if 5 <= i <= 17:
+            spend(month, 22, "Disney+", 159.0, "Subscriptions")  # cancelled after month 17
+        if i >= 22:
+            spend(month, 25, "Language app", 149.0, "Subscriptions")  # newer subscription
+        if month.month == 6:
+            spend(month, 9, "Domain renewal", 349.0, "Subscriptions")  # yearly
+        if i % 3 == 1:
+            spend(month, 6, "Insurance premium", 1_200.0, "Insurance")  # quarterly
         spend(month, 2, "Gym membership", 450.0, "Health")
 
         # --- variable spending
@@ -132,7 +182,7 @@ def generate(
         # --- one-off events
         if i in ONE_OFFS:
             description, cost, category = ONE_OFFS[i]
-            spend(month, 14, description, cost, category)
+            spend(month, ONE_OFF_DAY, description, cost, category)
 
     # --- investments: monthly VOO plus occasional single-stock lots (USD)
     paths = {
@@ -151,13 +201,22 @@ def generate(
             buy(month, i, str(rng.choice(OTHER_TICKERS)), float(rng.integers(40, 121)),
                 int(rng.integers(5, 26)))
 
+    # --- budgets: constant per category, except Housing which follows the rent
+    first_day = periods[0].start_time
+    budget_rows = [(category, value, first_day) for category, value in BUDGETS.items()]
+    for year, rent in enumerate(RENT_BY_YEAR):
+        if year * 12 < months:
+            budget_rows.append(("Housing", rent, periods[year * 12].start_time))
+
     income = pd.DataFrame(income_rows, columns=SCHEMAS["income"]["columns"])
     expenses = pd.DataFrame(expense_rows, columns=SCHEMAS["expenses"]["columns"])
     investments = pd.DataFrame(lots, columns=SCHEMAS["investments"]["columns"])
-    return (
+    budgets = pd.DataFrame(budget_rows, columns=SCHEMAS["budgets"]["columns"])
+    return SampleData(
         income.sort_values("date", kind="stable").reset_index(drop=True),
         expenses.sort_values("date", kind="stable").reset_index(drop=True),
         investments.sort_values("buy_date", kind="stable").reset_index(drop=True),
+        budgets.sort_values(["category", "effective_from"]).reset_index(drop=True),
     )
 
 
@@ -175,7 +234,7 @@ def write_sample_data(
     months: int = DEFAULT_MONTHS,
     force: bool = False,
 ) -> list[Path]:
-    """Write the three CSVs. Refuses to overwrite existing files unless force=True."""
+    """Write the CSVs. Refuses to overwrite existing files unless force=True."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     targets = {name: out_dir / schema["file"] for name, schema in SCHEMAS.items()}
@@ -184,10 +243,11 @@ def write_sample_data(
     if existing and not force:
         raise FileExistsError(f"{existing} already exist in {out_dir}. Use --force to overwrite.")
 
-    income, expenses, investments = generate(seed, start, months)
-    _write(income, targets["income"], {"amount": "{:.2f}"})
-    _write(expenses, targets["expenses"], {"amount": "{:.2f}"})
-    _write(investments, targets["investments"], {"shares": "{:.4f}", "buy_price": "{:.2f}"})
+    sample = generate(seed, start, months)
+    _write(sample.income, targets["income"], {"amount": "{:.2f}"})
+    _write(sample.expenses, targets["expenses"], {"amount": "{:.2f}"})
+    _write(sample.investments, targets["investments"], {"shares": "{:.4f}", "buy_price": "{:.2f}"})
+    _write(sample.budgets, targets["budgets"], {"monthly_budget": "{:.2f}"})
     return list(targets.values())
 
 
