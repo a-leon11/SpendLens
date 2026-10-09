@@ -1,7 +1,7 @@
 """SpendLens dashboard. Run with: streamlit run dashboard.py"""
 import streamlit as st
 
-from spendlens import budget, data, portfolio
+from spendlens import budget, charts, data, portfolio
 
 st.set_page_config(page_title="SpendLens", page_icon="🔍", layout="wide")
 
@@ -40,12 +40,10 @@ c3.metric("Net", f"{net:,.2f}")
 c4.metric("Savings rate", f"{savings_rate:.1%}")
 
 st.subheader("Income vs expenses by month")
-chart = monthly[["income", "expenses"]].copy()
-chart.index = chart.index.to_timestamp()
-st.bar_chart(chart)
+st.altair_chart(charts.monthly_chart(monthly))
 
 st.subheader("Spending by category")
-st.bar_chart(budget.category_breakdown(expenses))
+st.altair_chart(charts.category_chart(budget.category_breakdown(expenses)))
 
 # --- Portfolio --------------------------------------------------------------
 st.header("Portfolio (USD)")
@@ -87,4 +85,4 @@ st.dataframe(
 )
 
 st.subheader("Allocation by value")
-st.bar_chart(positions.set_index("ticker")["value"])
+st.altair_chart(charts.allocation_chart(positions))
